@@ -1,0 +1,21 @@
+.logo {
+    width: 352px;
+    height: 87px;
+    background-image: url(../img/logo-staels@2x.png);
+    background-size: 100%;
+    margin: 40px auto;
+}
+
+.table-responsive, form {
+    position: relative;
+}
+
+.table-primary-button {
+    position: absolute;
+    top: -45px; right: 0;
+}
+
+.submit {
+    display: inline;
+    padding-right: 2px;
+}

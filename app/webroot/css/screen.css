@@ -1,0 +1,78 @@
+/* line 1, ../sass/partials/_ui.scss */
+.logo {
+  width: 352px;
+  height: 87px;
+  background-image: url(../img/logo-staels@2x.png);
+  background-size: 100%;
+  margin: 40px auto;
+}
+
+/* line 9, ../sass/partials/_ui.scss */
+.table-responsive, form {
+  position: relative;
+}
+
+/* line 13, ../sass/partials/_ui.scss */
+.table-primary-button {
+  position: absolute;
+  top: -45px;
+  right: 0;
+}
+
+/* line 18, ../sass/partials/_ui.scss */
+.submit {
+  display: inline;
+  padding-right: 2px;
+}
+
+/* line 6, ../sass/screen.scss */
+#container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+/* line 11, ../sass/screen.scss */
+.btn-logout {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/* line 17, ../sass/screen.scss */
+.hide {
+  display: none;
+}
+
+/* line 21, ../sass/screen.scss */
+.out {
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-in;
+  -moz-transition-timing-function: ease-in;
+  -o-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+}
+
+/* line 28, ../sass/screen.scss */
+.picture-alert {
+  pointer-events: none;
+}
+
+/* line 32, ../sass/screen.scss */
+.gallery {
+  padding-bottom: 40px;
+}
+
+/* line 36, ../sass/screen.scss */
+.empty {
+  font-weight: 300;
+  color: #999999;
+}

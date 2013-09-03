@@ -1,0 +1,39 @@
+@import "compass";
+
+@import "partials/_login";
+@import "partials/_ui";
+
+#container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.btn-logout {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.hide {
+    display: none;
+}
+
+.out {
+    @include transition-property(all);
+    @include transition-duration(0.5s);
+    @include transition-timing-function(ease-in);
+    @include opacity(0);
+}
+
+.picture-alert {
+    pointer-events:none;
+}
+
+.gallery {
+    padding-bottom: 40px;
+}
+
+.empty {
+    font-weight: 300;
+    color: rgb(153, 153, 153);
+}
