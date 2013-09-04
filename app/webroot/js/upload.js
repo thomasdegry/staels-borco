@@ -1,14 +1,19 @@
 $(function () {
 
-    var url = 'http://localhost/Personal/StaelsBorco';
+    var url = 'http://localhost/Personal/StaelsBorco',
+        currentPicture = null;
+
+    bindThumbnailClicks();
 
     'use strict';
 
     // Initialize the jQuery File Upload widget:
     $('#fileupload').fileupload({
+            autoUpload: true,
+            url: '../../server/php/',
+            acceptFileTypes: /(\.|\/)(gif|jpe?g|png)$/i
         // Uncomment the following to send cross-domain cookies:
         //xhrFields: {withCredentials: true},
-        url: '../../server/php/'
     });
 
     // Enable iframe cross-domain access via redirect option:
@@ -86,7 +91,9 @@ $(function () {
                 descrEN = $(this).find('.picture-info').find('.descr_en').text(),
                 pictureID = $(this).attr('data-pictureid');
 
+            console.log('bind thumbnail clicks');
             currentPicture = $(this);
+            console.log(currentPicture);
 
             $('input[name="id"]').val(pictureID);
             $('input[name="descr_nl"]').val(descrNL);
@@ -98,5 +105,52 @@ $(function () {
             $('#myModal').modal('show');
         });
     }
+
+    $("#btnSave").click(function(e) {
+        e.preventDefault();
+        $(this).val('Saving...');
+        $(this).attr('disabled', 'disabled');
+        $.ajax({
+            type: 'POST',
+            url: url + '/Pictures/edit/' + $('input[name="id"]').val(),
+            data: $("#image-data-form").serialize(),
+            success: function(data) {
+                $("#myModal").modal('hide');
+                currentPicture.find('.picture-info').find('.descr_nl').text($("#modal-nl").val());
+                currentPicture.find('.picture-info').find('.descr_fr').text($("#modal-fr").val());
+                currentPicture.find('.picture-info').find('.descr_en').text($("#modal-en").val());
+                checkTranslationsOnSave();
+            }
+        })
+    });
+
+    function checkTranslationsOnSave() {
+        var nl = currentPicture.find('.picture-info').find('.descr_nl').text(),
+            fr = currentPicture.find('.picture-info').find('.descr_fr').text(),
+            en = currentPicture.find('.picture-info').find('.descr_en').text();
+
+        if(!(nl == '' || fr == '' || en == '')) {
+            $(currentPicture).next().addClass('out');
+        } else {
+            $(currentPicture).next().removeClass('out');
+        }
+    }
+
+    $(".btn-delete-picture").click(function(e) {
+        e.preventDefault();
+        var pictureid = $('input[name="id"]').val();
+
+        var answer = confirm('Bent u zeker dat u deze foto wilt verwijderen?');
+        if(answer) {
+            $.ajax({
+                type: 'POST',
+                url: url + '/Pictures/delete/' + pictureid,
+                success: function(data) {
+                    $("#myModal").modal('hide');
+                    refresh();
+                }
+            });
+        }
+    });
 
 });
