@@ -1,0 +1,3067 @@
+2013-08-28 20:32:58 Error: [MissingControllerException] Controller class HomeController could not be found.
+Exception Attributes: array (
+  'class' => 'HomeController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/home
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-28 20:33:23 Error: [MissingControllerException] Controller class HomeController could not be found.
+Exception Attributes: array (
+  'class' => 'HomeController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/home
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-28 20:33:24 Error: [MissingControllerException] Controller class HomeController could not be found.
+Exception Attributes: array (
+  'class' => 'HomeController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/home
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-28 20:33:40 Error: [MissingControllerException] Controller class HomeController could not be found.
+Exception Attributes: array (
+  'class' => 'HomeController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/home
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-28 20:33:41 Error: [MissingControllerException] Controller class HomeController could not be found.
+Exception Attributes: array (
+  'class' => 'HomeController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/home
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-28 20:33:44 Error: [MissingControllerException] Controller class HomeController could not be found.
+Exception Attributes: array (
+  'class' => 'HomeController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/home
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-28 20:34:18 Error: [MissingControllerException] Controller class HomeController could not be found.
+Exception Attributes: array (
+  'class' => 'HomeController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/home
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-28 20:34:20 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/users/index
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-28 20:34:35 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/users
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-28 20:35:47 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/Personal/StaelsBorco/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/MAMP/htdocs/Personal/StaelsBorco/app/View/Users/index.ctp',
+)
+Request URL: /Personal/StaelsBorco/users
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-28 21:05:01 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /Personal/StaelsBorco/users
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Model/Model.php(3247): Model->setSource('users')
+#1 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Model/Model.php(1318): Model->getDataSource()
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/View/Helper/FormHelper.php(199): Model->schema()
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/View/Helper/FormHelper.php(451): FormHelper->_introspectModel('User', 'fields')
+#4 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/View/Users/index.ctp(5): FormHelper->create()
+#5 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/View/View.php(945): include('/Applications/M...')
+#6 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/View/View.php(907): View->_evaluate('/Applications/M...', Array)
+#7 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/View/View.php(471): View->_render('/Applications/M...')
+#8 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#9 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#10 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-08-28 21:11:15 Error: Fatal Error (1): Class 'AuthComponent' not found in [/Applications/MAMP/htdocs/Personal/StaelsBorco/app/Model/User.php, line 39]
+2013-08-28 21:11:15 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /Personal/StaelsBorco/users/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/Applications/M...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/Applications/M...', 39, Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/Applications/M...', 39, Array)
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-08-28 21:12:18 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /Personal/StaelsBorco/users/login
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-28 21:12:22 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /Personal/StaelsBorco/users/login
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-28 21:15:34 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in [/Applications/MAMP/htdocs/Personal/StaelsBorco/app/Controller/AppController.php, line 53]
+2013-08-28 21:15:34 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting T_FUNCTION
+Request URL: /Personal/StaelsBorco/users/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 53)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 53, Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 53, Array)
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-08-28 21:24:50 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [/Applications/MAMP/htdocs/Personal/StaelsBorco/app/View/Users/index.ctp, line 30]
+2013-08-28 21:24:50 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /Personal/StaelsBorco/users
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 30, Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 30, Array)
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-08-28 22:03:41 Error: [MissingControllerException] Controller class NieuwsController could not be found.
+Exception Attributes: array (
+  'class' => 'NieuwsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/Nieuws/overview
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-28 22:03:59 Error: [CakeException] Authorization adapter "add" was not found.
+Request URL: /Personal/StaelsBorco/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Controller/Component/AuthComponent.php(409): AuthComponent->constructAuthorize()
+#1 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Controller/Component/AuthComponent.php(336): AuthComponent->isAuthorized(Array)
+#2 [internal function]: AuthComponent->startup(Object(PagesController))
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Utility/ObjectCollection.php(132): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Event/CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#6 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Controller/Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(184): Controller->startupProcess()
+#8 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#9 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-08-28 22:28:50 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /Personal/StaelsBorco/Galleries
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Auth')
+#1 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/View/View.php(833): HelperCollection->__isset('Auth')
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/View/Layouts/default.ctp(26): View->__get('Auth')
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/View/View.php(945): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/View/View.php(907): View->_evaluate('/Applications/M...', Array)
+#5 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/View/View.php(535): View->_render('/Applications/M...')
+#6 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/View/View.php(479): View->renderLayout('', 'default')
+#7 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#8 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#9 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(GalleriesController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-08-28 22:28:50 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/img/cake.icon.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-28 22:35:00 Error: [MissingHelperException] Helper class UserHelper could not be found.
+Exception Attributes: array (
+  'class' => 'UserHelper',
+  'plugin' => false,
+)
+Request URL: /Personal/StaelsBorco/Galleries
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('User')
+#1 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/View/View.php(833): HelperCollection->__isset('User')
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/View/Layouts/default.ctp(26): View->__get('User')
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/View/View.php(945): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/View/View.php(907): View->_evaluate('/Applications/M...', Array)
+#5 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/View/View.php(535): View->_render('/Applications/M...')
+#6 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/View/View.php(479): View->renderLayout('', 'default')
+#7 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#8 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#9 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(GalleriesController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-08-28 22:35:01 Error: [MissingHelperException] Helper class UserHelper could not be found.
+Exception Attributes: array (
+  'class' => 'UserHelper',
+  'plugin' => false,
+)
+Request URL: /Personal/StaelsBorco/Galleries
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('User')
+#1 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/View/View.php(833): HelperCollection->__isset('User')
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/View/Layouts/default.ctp(26): View->__get('User')
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/View/View.php(945): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/View/View.php(907): View->_evaluate('/Applications/M...', Array)
+#5 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/View/View.php(535): View->_render('/Applications/M...')
+#6 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/View/View.php(479): View->renderLayout('', 'default')
+#7 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#8 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#9 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(GalleriesController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-08-28 22:37:26 Error: Fatal Error (4): syntax error, unexpected T_DOUBLE_ARROW in [/Applications/MAMP/htdocs/Personal/StaelsBorco/app/View/Layouts/default.ctp, line 25]
+2013-08-28 22:37:26 Error: [FatalErrorException] syntax error, unexpected T_DOUBLE_ARROW
+Request URL: /Personal/StaelsBorco/Galleries
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 25, Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 25, Array)
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-08-28 22:38:36 Error: Fatal Error (4): syntax error, unexpected T_DOUBLE_ARROW in [/Applications/MAMP/htdocs/Personal/StaelsBorco/app/View/Layouts/default.ctp, line 25]
+2013-08-28 22:38:36 Error: [FatalErrorException] syntax error, unexpected T_DOUBLE_ARROW
+Request URL: /Personal/StaelsBorco/Galleries
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 25, Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 25, Array)
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-08-28 22:38:37 Error: Fatal Error (4): syntax error, unexpected T_DOUBLE_ARROW in [/Applications/MAMP/htdocs/Personal/StaelsBorco/app/View/Layouts/default.ctp, line 25]
+2013-08-28 22:38:37 Error: [FatalErrorException] syntax error, unexpected T_DOUBLE_ARROW
+Request URL: /Personal/StaelsBorco/Galleries
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 25, Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 25, Array)
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-08-28 22:39:09 Error: [MissingActionException] Action GalleriesController::logout() could not be found.
+Exception Attributes: array (
+  'controller' => 'GalleriesController',
+  'action' => 'logout',
+)
+Request URL: /Personal/StaelsBorco/Galleries/logout/Controller:Users
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(GalleriesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-28 22:39:49 Error: [MissingActionException] Action UsersController::logout() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'logout',
+)
+Request URL: /Personal/StaelsBorco/Users/logout
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-28 23:09:02 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'limit' in 'where clause'
+Request URL: /Personal/StaelsBorco/Galleries
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Gallery...', Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Gallery...', Array, Array)
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Gallery...', false)
+#4 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Model/Model.php(2700): DboSource->read(Object(Gallery), Array)
+#5 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Controller/Component/PaginatorComponent.php(198): Model->find('all', Array)
+#6 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/Controller/GalleriesController.php(17): PaginatorComponent->paginate(Array)
+#7 [internal function]: GalleriesController->index()
+#8 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(GalleriesController), Array)
+#9 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(GalleriesController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-08-28 23:09:38 Error: [MissingControllerException] Controller class PicturesController could not be found.
+Exception Attributes: array (
+  'class' => 'PicturesController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/pictures
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-28 23:37:52 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [/Applications/MAMP/htdocs/Personal/StaelsBorco/app/View/Galleries/index.ctp, line 20]
+2013-08-28 23:37:52 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /Personal/StaelsBorco/Galleries
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 20, Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 20, Array)
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-08-28 23:37:55 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [/Applications/MAMP/htdocs/Personal/StaelsBorco/app/View/Galleries/index.ctp, line 20]
+2013-08-28 23:37:55 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /Personal/StaelsBorco/Galleries
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 20, Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 20, Array)
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-08-28 23:38:01 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [/Applications/MAMP/htdocs/Personal/StaelsBorco/app/View/Galleries/index.ctp, line 20]
+2013-08-28 23:38:01 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /Personal/StaelsBorco/Galleries
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 20, Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 20, Array)
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-08-28 23:38:02 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [/Applications/MAMP/htdocs/Personal/StaelsBorco/app/View/Galleries/index.ctp, line 20]
+2013-08-28 23:38:02 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /Personal/StaelsBorco/Galleries
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 20, Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 20, Array)
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-08-28 23:38:13 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [/Applications/MAMP/htdocs/Personal/StaelsBorco/app/View/Galleries/index.ctp, line 20]
+2013-08-28 23:38:13 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /Personal/StaelsBorco/Galleries
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 20, Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 20, Array)
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-08-28 23:38:14 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [/Applications/MAMP/htdocs/Personal/StaelsBorco/app/View/Galleries/index.ctp, line 20]
+2013-08-28 23:38:14 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /Personal/StaelsBorco/Galleries
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 20, Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 20, Array)
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-08-28 23:38:42 Error: Fatal Error (4): syntax error, unexpected ';' in [/Applications/MAMP/htdocs/Personal/StaelsBorco/app/View/Galleries/index.ctp, line 20]
+2013-08-28 23:38:42 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /Personal/StaelsBorco/Galleries
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 20, Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 20, Array)
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-08-28 23:40:04 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-28 23:40:04 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-28 23:40:04 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/fonts/glyphicons-halflings-regular.svg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-29 00:07:39 Error: Fatal Error (1): Cannot unset string offsets in [/Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/View/Helper/FormHelper.php, line 1747]
+2013-08-29 00:07:39 Error: [FatalErrorException] Cannot unset string offsets
+Request URL: /Personal/StaelsBorco/Galleries
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot unset st...', '/Applications/M...', 1747)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', '/Applications/M...', 1747, Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', '/Applications/M...', 1747, Array)
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-08-29 00:08:47 Error: Fatal Error (1): Cannot unset string offsets in [/Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/View/Helper/FormHelper.php, line 1747]
+2013-08-29 00:08:47 Error: [FatalErrorException] Cannot unset string offsets
+Request URL: /Personal/StaelsBorco/Galleries
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot unset st...', '/Applications/M...', 1747)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', '/Applications/M...', 1747, Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', '/Applications/M...', 1747, Array)
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-08-29 00:08:48 Error: Fatal Error (1): Cannot unset string offsets in [/Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/View/Helper/FormHelper.php, line 1747]
+2013-08-29 00:08:48 Error: [FatalErrorException] Cannot unset string offsets
+Request URL: /Personal/StaelsBorco/Galleries
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot unset st...', '/Applications/M...', 1747)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', '/Applications/M...', 1747, Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', '/Applications/M...', 1747, Array)
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-08-29 00:08:53 Error: Fatal Error (1): Cannot unset string offsets in [/Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/View/Helper/FormHelper.php, line 1747]
+2013-08-29 00:08:53 Error: [FatalErrorException] Cannot unset string offsets
+Request URL: /Personal/StaelsBorco/Galleries
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot unset st...', '/Applications/M...', 1747)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', '/Applications/M...', 1747, Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', '/Applications/M...', 1747, Array)
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-08-29 00:33:46 Error: [MissingControllerException] Controller class PicturesController could not be found.
+Exception Attributes: array (
+  'class' => 'PicturesController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/pictures/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-29 00:37:21 Error: Fatal Error (4): syntax error, unexpected ';' in [/Applications/MAMP/htdocs/Personal/StaelsBorco/app/View/Galleries/index.ctp, line 21]
+2013-08-29 00:37:21 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /Personal/StaelsBorco/Galleries
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 21)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 21, Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 21, Array)
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-08-29 02:18:08 Error: [MissingControllerException] Controller class FileUploadController could not be found.
+Exception Attributes: array (
+  'class' => 'FileUploadController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/file_upload/css/jquery.fileupload-ui.css
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-29 02:19:43 Error: Fatal Error (1): Class 'FileUploadAppController' not found in [/Applications/MAMP/htdocs/Personal/StaelsBorco/app/Controller/GalleriesController.php, line 9]
+2013-08-29 02:19:43 Error: [FatalErrorException] Class 'FileUploadAppController' not found
+Request URL: /Personal/StaelsBorco/Galleries/view/3
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Class 'FileUplo...', '/Applications/M...', 9)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'FileUplo...', '/Applications/M...', 9, Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'FileUplo...', '/Applications/M...', 9, Array)
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-08-29 02:19:43 Error: [MissingControllerException] Controller class FileUploadController could not be found.
+Exception Attributes: array (
+  'class' => 'FileUploadController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/file_upload/css/jquery.fileupload-ui.css
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-29 02:19:55 Error: Fatal Error (1): Class 'FileUploadAppController' not found in [/Applications/MAMP/htdocs/Personal/StaelsBorco/app/Controller/GalleriesController.php, line 9]
+2013-08-29 02:19:55 Error: [FatalErrorException] Class 'FileUploadAppController' not found
+Request URL: /Personal/StaelsBorco/Galleries/view/3
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Class 'FileUplo...', '/Applications/M...', 9)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'FileUplo...', '/Applications/M...', 9, Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'FileUplo...', '/Applications/M...', 9, Array)
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-08-29 02:19:55 Error: [MissingControllerException] Controller class FileUploadController could not be found.
+Exception Attributes: array (
+  'class' => 'FileUploadController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/file_upload/css/jquery.fileupload-ui.css
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-29 02:19:56 Error: Fatal Error (1): Class 'FileUploadAppController' not found in [/Applications/MAMP/htdocs/Personal/StaelsBorco/app/Controller/GalleriesController.php, line 9]
+2013-08-29 02:19:56 Error: [FatalErrorException] Class 'FileUploadAppController' not found
+Request URL: /Personal/StaelsBorco/Galleries/view/3
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Class 'FileUplo...', '/Applications/M...', 9)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'FileUplo...', '/Applications/M...', 9, Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'FileUplo...', '/Applications/M...', 9, Array)
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-08-29 02:19:56 Error: [MissingControllerException] Controller class FileUploadController could not be found.
+Exception Attributes: array (
+  'class' => 'FileUploadController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/file_upload/css/jquery.fileupload-ui.css
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-29 02:20:21 Error: Fatal Error (1): Class 'FileUploadAppController' not found in [/Applications/MAMP/htdocs/Personal/StaelsBorco/app/Controller/GalleriesController.php, line 9]
+2013-08-29 02:20:21 Error: [FatalErrorException] Class 'FileUploadAppController' not found
+Request URL: /Personal/StaelsBorco/Galleries/view/3
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Class 'FileUplo...', '/Applications/M...', 9)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'FileUplo...', '/Applications/M...', 9, Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'FileUplo...', '/Applications/M...', 9, Array)
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-08-29 02:20:21 Error: [MissingControllerException] Controller class FileUploadController could not be found.
+Exception Attributes: array (
+  'class' => 'FileUploadController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/file_upload/css/jquery.fileupload-ui.css
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-29 02:24:01 Error: [MissingHelperException] Helper class UploadFormHelper could not be found.
+Exception Attributes: array (
+  'class' => 'UploadFormHelper',
+  'plugin' => false,
+)
+Request URL: /Personal/StaelsBorco/Galleries/view/3
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('UploadForm')
+#1 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/View/View.php(833): HelperCollection->__isset('UploadForm')
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/View/Galleries/view.ctp(76): View->__get('UploadForm')
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/View/View.php(945): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/View/View.php(907): View->_evaluate('/Applications/M...', Array)
+#5 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/View/View.php(471): View->_render('/Applications/M...')
+#6 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#7 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#8 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(GalleriesController), Object(CakeRequest), Object(CakeResponse))
+#9 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-08-29 02:44:37 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/img/loading.gif
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-29 02:54:41 Error: [NotFoundException] Invalid gallery
+Request URL: /Personal/StaelsBorco/Galleries/view/[object%20Object]
+Stack Trace:
+#0 [internal function]: GalleriesController->view('[object Object]')
+#1 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(GalleriesController), Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(GalleriesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-29 02:57:42 Error: [NotFoundException] Invalid gallery
+Request URL: /Personal/StaelsBorco/Galleries/view/server/php/
+Stack Trace:
+#0 [internal function]: GalleriesController->view('server', 'php')
+#1 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(GalleriesController), Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(GalleriesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-29 02:57:44 Error: [NotFoundException] Invalid gallery
+Request URL: /Personal/StaelsBorco/Galleries/view/server/php/
+Stack Trace:
+#0 [internal function]: GalleriesController->view('server', 'php')
+#1 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(GalleriesController), Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(GalleriesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-29 02:57:59 Error: [NotFoundException] Invalid gallery
+Request URL: /Personal/StaelsBorco/Galleries/view/server/php/
+Stack Trace:
+#0 [internal function]: GalleriesController->view('server', 'php')
+#1 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(GalleriesController), Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(GalleriesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-29 02:58:00 Error: [NotFoundException] Invalid gallery
+Request URL: /Personal/StaelsBorco/Galleries/view/server/php/
+Stack Trace:
+#0 [internal function]: GalleriesController->view('server', 'php')
+#1 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(GalleriesController), Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(GalleriesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-29 02:58:31 Error: [NotFoundException] Invalid gallery
+Request URL: /Personal/StaelsBorco/Galleries/view/server/php/
+Stack Trace:
+#0 [internal function]: GalleriesController->view('server', 'php')
+#1 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(GalleriesController), Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(GalleriesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-29 02:58:49 Error: [NotFoundException] Invalid gallery
+Request URL: /Personal/StaelsBorco/Galleries/view/server/php/
+Stack Trace:
+#0 [internal function]: GalleriesController->view('server', 'php')
+#1 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(GalleriesController), Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(GalleriesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-29 02:58:50 Error: [NotFoundException] Invalid gallery
+Request URL: /Personal/StaelsBorco/Galleries/view/server/php/
+Stack Trace:
+#0 [internal function]: GalleriesController->view('server', 'php')
+#1 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(GalleriesController), Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(GalleriesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-29 02:58:52 Error: [NotFoundException] Invalid gallery
+Request URL: /Personal/StaelsBorco/Galleries/view/server/php/
+Stack Trace:
+#0 [internal function]: GalleriesController->view('server', 'php')
+#1 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(GalleriesController), Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(GalleriesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-29 03:00:13 Error: [MissingActionException] Action GalleriesController::server() could not be found.
+Exception Attributes: array (
+  'controller' => 'GalleriesController',
+  'action' => 'server',
+)
+Request URL: /Personal/StaelsBorco/Galleries/server/php/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(GalleriesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-29 03:10:27 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/img/loading.gif
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-29 03:21:17 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/img/loading.gif
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-29 12:06:27 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/img/loading.gif
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-29 12:18:42 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/img/loading.gif
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-29 13:36:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/img/uploads/thumbnail/01582_myhomeplanet_1680x1050.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-29 13:36:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/img/uploads/thumbnail/01420_animpossibledream_1680x1050.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-29 13:36:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/img/uploads/thumbnail/01552_treeandthesunset_1680x1050.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-29 13:36:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/img/uploads/thumbnail/01596_bigcitylife_1680x1050.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-29 13:36:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/img/uploads/thumbnail/1680x1050_42c21b6a5588bc1d33cd27ee930549d3201109110423202.jpeg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-29 13:36:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/img/uploads/thumbnail/1680x1050_6cb8fee26a2113dfd24af563b42b3974201109110418332.jpeg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-29 13:36:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/img/uploads/thumbnail/1680x1050_0cc97887d763bb3e6ddb728f56a50e2b201109110415142.jpeg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-29 13:37:27 Error: [MissingActionException] Action GalleriesController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'GalleriesController',
+  'action' => 'img',
+)
+Request URL: /Personal/StaelsBorco/Galleries/img/uploads/thumbnail/01552_treeandthesunset_1680x1050.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(GalleriesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-29 13:37:28 Error: [MissingActionException] Action GalleriesController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'GalleriesController',
+  'action' => 'img',
+)
+Request URL: /Personal/StaelsBorco/Galleries/img/uploads/thumbnail/01582_myhomeplanet_1680x1050.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(GalleriesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-29 13:37:28 Error: [MissingActionException] Action GalleriesController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'GalleriesController',
+  'action' => 'img',
+)
+Request URL: /Personal/StaelsBorco/Galleries/img/uploads/thumbnail/01537_grassysunset_1680x1050.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(GalleriesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-29 13:37:28 Error: [MissingActionException] Action GalleriesController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'GalleriesController',
+  'action' => 'img',
+)
+Request URL: /Personal/StaelsBorco/Galleries/img/uploads/thumbnail/01420_animpossibledream_1680x1050.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(GalleriesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-29 13:37:28 Error: [MissingActionException] Action GalleriesController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'GalleriesController',
+  'action' => 'img',
+)
+Request URL: /Personal/StaelsBorco/Galleries/img/uploads/thumbnail/01596_bigcitylife_1680x1050.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(GalleriesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-29 14:37:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/js/StaelsBorco.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-29 15:43:45 Error: Fatal Error (1): Class 'AppContr' not found in [/Applications/MAMP/htdocs/Personal/StaelsBorco/app/Controller/PicturesController.php, line 4]
+2013-08-29 15:43:45 Error: [FatalErrorException] Class 'AppContr' not found
+Request URL: /Personal/StaelsBorco/Pictures/edit/90
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/Applications/M...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/Applications/M...', 4, Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/Applications/M...', 4, Array)
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-08-29 15:52:43 Error: [NotFoundException] Invalid gallery
+Request URL: /Personal/StaelsBorco/Galleries/view/
+Stack Trace:
+#0 [internal function]: GalleriesController->view()
+#1 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(GalleriesController), Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(GalleriesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-29 16:08:54 Error: Fatal Error (1): Call to undefined method GalleriesController::layout() in [/Applications/MAMP/htdocs/Personal/StaelsBorco/app/Controller/GalleriesController.php, line 64]
+2013-08-29 16:08:54 Error: [FatalErrorException] Call to undefined method GalleriesController::layout()
+Request URL: /Personal/StaelsBorco/Galleries/refresh/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/M...', 64)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/M...', 64, Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/M...', 64, Array)
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-08-29 16:09:23 Error: Fatal Error (1): Call to undefined method GalleriesController::layout() in [/Applications/MAMP/htdocs/Personal/StaelsBorco/app/Controller/GalleriesController.php, line 64]
+2013-08-29 16:09:23 Error: [FatalErrorException] Call to undefined method GalleriesController::layout()
+Request URL: /Personal/StaelsBorco/Galleries/refresh/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/M...', 64)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/M...', 64, Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/M...', 64, Array)
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-08-29 16:10:18 Error: Fatal Error (1): Call to undefined method GalleriesController::layout() in [/Applications/MAMP/htdocs/Personal/StaelsBorco/app/Controller/GalleriesController.php, line 64]
+2013-08-29 16:10:18 Error: [FatalErrorException] Call to undefined method GalleriesController::layout()
+Request URL: /Personal/StaelsBorco/Galleries/refresh/3
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/M...', 64)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/M...', 64, Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/M...', 64, Array)
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-08-29 16:17:37 Error: [NotFoundException] Invalid gallery
+Request URL: /Personal/StaelsBorco/Galleries/view/
+Stack Trace:
+#0 [internal function]: GalleriesController->view()
+#1 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(GalleriesController), Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(GalleriesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-30 03:21:56 Error: Fatal Error (4): syntax error, unexpected T_ENDFOREACH in [/Applications/MAMP/htdocs/Personal/StaelsBorco/app/View/Galleries/view.ctp, line 79]
+2013-08-30 03:21:56 Error: [FatalErrorException] syntax error, unexpected T_ENDFOREACH
+Request URL: /Personal/StaelsBorco/Galleries/view/3
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 79)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 79, Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 79, Array)
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-08-30 15:39:49 Error: Fatal Error (4): syntax error, unexpected ';' in [/Applications/MAMP/htdocs/Personal/StaelsBorco/app/View/Galleries/index.ctp, line 21]
+2013-08-30 15:39:49 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /Personal/StaelsBorco/Galleries
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 21)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 21, Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 21, Array)
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-08-30 15:52:28 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`personal_staelsborco`.`galleries`, CONSTRAINT `galleries_ibfk_1` FOREIGN KEY (`id`) REFERENCES `pictures` (`gallery_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+Request URL: /Personal/StaelsBorco/Galleries/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('INSERT INTO `pe...', Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `pe...')
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Model/Model.php(1745): DboSource->create(Object(Gallery), Array, Array)
+#4 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/Controller/GalleriesController.php(38): Model->save(Array)
+#5 [internal function]: GalleriesController->add()
+#6 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(GalleriesController), Array)
+#7 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(GalleriesController), Object(CakeRequest), Object(CakeResponse))
+#9 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-08-30 15:53:50 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`personal_staelsborco`.`pictures`, CONSTRAINT `pictures_ibfk_1` FOREIGN KEY (`gallery_id`) REFERENCES `galleries` (`id`))
+Request URL: /Personal/StaelsBorco/Galleries/delete/8
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('DELETE `Gallery...', Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Model/Datasource/Database/Mysql.php(422): DboSource->execute('DELETE `Gallery...')
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Model/Model.php(2431): Mysql->delete(Object(Gallery), Array)
+#4 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/Controller/GalleriesController.php(79): Model->delete()
+#5 [internal function]: GalleriesController->delete('8')
+#6 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(GalleriesController), Array)
+#7 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(GalleriesController), Object(CakeRequest), Object(CakeResponse))
+#9 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-08-30 16:00:27 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [/Applications/MAMP/htdocs/Personal/StaelsBorco/app/Controller/GalleriesController.php, line 54]
+2013-08-30 16:00:27 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /Personal/StaelsBorco/Galleries
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 54, Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 54, Array)
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-09 22:53:28 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/footer-logo.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 22:53:28 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/ligging.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 22:53:28 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/man-vrouw.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 22:53:29 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/js/vendor/jquery-1.8.3.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 22:53:29 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/js/vendor/jquery.stapel.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 22:53:29 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/js/app.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 22:53:29 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/transport.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 22:53:29 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/team.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 22:53:30 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/materiaal.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 22:53:30 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/werknemers.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 22:53:31 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/merken.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 22:53:31 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/ontstaan-front.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:34:31 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/werknemers.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:34:31 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/merken.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:34:31 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/footer-logo.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:34:31 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/ligging.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:34:31 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/js/vendor/jquery-1.8.3.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:34:31 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/js/vendor/jquery.stapel.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:34:31 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/js/app.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:34:31 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/ontstaan-front.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:34:31 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/transport.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:34:31 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/team.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:34:31 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/materiaal.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:34:32 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/man-vrouw.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:39:51 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/footer-logo.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:39:51 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/js/vendor/jquery-1.8.3.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:39:51 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/js/assets/js/vendor/jquery-1.8.3.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:39:51 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/js/vendor/jquery.stapel.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:39:51 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/js/assets/js/vendor/jquery.stapel.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:39:51 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/js/app.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:39:51 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/ontstaan-front.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:39:51 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/werknemers.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:39:51 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/man-vrouw.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:39:51 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/merken.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:39:51 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/ligging.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:39:51 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/transport.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:39:51 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/team.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:39:51 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/materiaal.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:40:02 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/ontstaan-front.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:40:02 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/werknemers.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:40:02 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/footer-logo.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:40:02 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/merken.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:40:02 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/ligging.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:40:02 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/man-vrouw.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:40:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/js/assets/js/vendor/jquery-1.8.3.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:40:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/js/assets/js/vendor/jquery.stapel.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:40:02 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/transport.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:40:02 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/team.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:40:02 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/materiaal.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:40:33 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/footer-logo.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:40:33 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/ligging.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:40:33 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/ontstaan-front.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:40:33 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/werknemers.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:40:33 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/man-vrouw.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:40:33 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/merken.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:40:33 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/transport.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:40:33 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/team.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:40:33 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/materiaal.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:40:42 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/footer-logo.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:40:42 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/ligging.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:40:42 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/merken.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:40:42 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/man-vrouw.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:40:42 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/transport.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:40:42 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/ontstaan-front.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:40:42 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/werknemers.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:40:42 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/team.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:40:42 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/materiaal.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:42:51 Error: Fatal Error (4): syntax error, unexpected T_ECHO in [/Applications/MAMP/htdocs/Personal/StaelsBorco/app/View/Layouts/frontend.ctp, line 25]
+2013-09-09 23:42:51 Error: [FatalErrorException] syntax error, unexpected T_ECHO
+Request URL: /Personal/StaelsBorco/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 25, Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 25, Array)
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-09 23:43:02 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/footer-logo.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:43:02 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/ontstaan-front.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:43:02 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/ligging.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:43:02 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/werknemers.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:43:02 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/man-vrouw.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:43:02 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/transport.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:43:02 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/merken.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:43:02 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/materiaal.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:43:02 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/team.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:43:16 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/footer-logo.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:43:16 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/ontstaan-front.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:43:16 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/werknemers.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:43:17 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/man-vrouw.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:43:17 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/team.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:43:17 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/ligging.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:43:17 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/transport.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:43:17 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/merken.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:43:17 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/materiaal.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:45:06 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [/Applications/MAMP/htdocs/Personal/StaelsBorco/app/View/Home/index.ctp, line 27]
+2013-09-09 23:45:06 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /Personal/StaelsBorco/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 27, Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 27, Array)
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-09 23:45:14 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/img/stats/onstaan-front.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:45:14 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/ligging.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:45:14 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/werknemers.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:45:14 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/merken.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:45:14 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/man-vrouw.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:45:14 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/footer-logo.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:45:14 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/team.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:45:14 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/materiaal.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:45:14 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/transport.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:45:23 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/footer-logo.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:45:23 Error: [MissingControllerException] Controller class StatsController could not be found.
+Exception Attributes: array (
+  'class' => 'StatsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/stats/onstaan-front.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:45:23 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/werknemers.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:45:23 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/man-vrouw.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:45:23 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/merken.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:45:23 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/ligging.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:45:23 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/transport.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:45:23 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/materiaal.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:45:23 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/team.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:45:26 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/img/stats/onstaan-front.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:45:26 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/werknemers.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:45:26 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/footer-logo.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:45:26 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/man-vrouw.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:45:26 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/ligging.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:45:26 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/merken.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:45:26 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/transport.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:45:26 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/team.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:45:26 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/materiaal.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:46:06 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/footer-logo.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:46:06 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/man-vrouw.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:46:06 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/werknemers.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:46:06 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/ligging.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:46:06 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/transport.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:46:06 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/team.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:46:06 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/materiaal.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:46:06 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/merken.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:46:20 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/footer-logo.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:46:20 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/ligging.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:46:20 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/merken.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:46:20 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/transport.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:46:20 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/team.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:46:20 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/materiaal.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:46:20 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/stats/man-vrouw.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:47:04 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/footer-logo.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:47:04 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/materiaal.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:47:04 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/team.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:47:58 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/footer-logo.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:47:58 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/materiaal.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:47:58 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/team.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:48:46 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/footer-logo.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:48:46 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/team.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:48:46 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/materiaal.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:48:47 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/fonts/Gotham-Bold.woff
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:48:47 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/fonts/Gotham-Medium.woff
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:48:47 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/fonts/Gotham-Light.woff
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:48:47 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/fonts/Gotham-Medium.ttf
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:48:47 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/fonts/Gotham-Bold.ttf
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:48:47 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/fonts/Gotham-Light.ttf
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:48:47 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/fonts/Gotham-Bold.svg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:48:47 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/fonts/Gotham-Medium.svg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:48:47 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/fonts/Gotham-Light.svg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:49:14 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/footer-logo.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:49:14 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/team.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:49:14 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/fonts/Gotham-Medium.woff
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:49:14 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/fonts/Gotham-Bold.woff
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:49:14 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/fonts/Gotham-Light.woff
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:49:15 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/fonts/Gotham-Light.ttf
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:49:15 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/fonts/Gotham-Medium.ttf
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:49:15 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/fonts/Gotham-Bold.ttf
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:49:15 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/fonts/Gotham-Medium.svg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:49:15 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/fonts/Gotham-Light.svg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:49:15 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/fonts/Gotham-Bold.svg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:51:04 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/team.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:51:05 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/fonts/Gotham-Bold.woff
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:51:05 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/fonts/Gotham-Medium.woff
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:51:05 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/fonts/Gotham-Light.woff
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:51:05 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/fonts/Gotham-Bold.ttf
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:51:05 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/fonts/Gotham-Medium.ttf
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:51:05 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/fonts/Gotham-Light.ttf
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:51:05 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/fonts/Gotham-Light.svg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:51:05 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/fonts/Gotham-Medium.svg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:51:05 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/fonts/Gotham-Bold.svg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:51:24 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/team.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:51:25 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/fonts/Gotham-Bold.woff
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:51:25 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/fonts/Gotham-Light.woff
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:51:25 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/fonts/Gotham-Medium.woff
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:51:25 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/fonts/Gotham-Bold.ttf
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:51:25 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/fonts/Gotham-Medium.ttf
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:51:25 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/fonts/Gotham-Light.ttf
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:51:25 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/fonts/Gotham-Bold.svg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:51:25 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/fonts/Gotham-Light.svg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:51:25 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/fonts/Gotham-Medium.svg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:51:46 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/fonts/Gotham-Bold.woff
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:51:46 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/fonts/Gotham-Medium.woff
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:51:46 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/fonts/Gotham-Light.woff
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:51:46 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/fonts/Gotham-Medium.ttf
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:51:46 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/fonts/Gotham-Light.ttf
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:51:46 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/fonts/Gotham-Bold.ttf
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:51:47 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/fonts/Gotham-Bold.svg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:51:47 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/fonts/Gotham-Medium.svg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 23:51:47 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/fonts/Gotham-Light.svg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-10 00:12:10 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/logo-staels@2x.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-10 00:12:10 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/logo-slenna@2x.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-10 00:13:15 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/img/assets/img/logo-staels%402x.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-10 00:13:15 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/img/assets/img/logo-slenna%402x.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-10 00:13:16 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/img/assets/img/logo-staels%402x.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-10 00:13:16 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/img/assets/img/logo-slenna%402x.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-10 00:15:02 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/showroom/albumcovers/album_02@2x.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-10 00:15:02 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/footer-logo.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-10 00:15:02 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/showroom/albumcovers/album_04@2x.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-10 00:15:02 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/showroom/albumcovers/album_01@2x.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-10 00:15:02 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/showroom/albumcovers/album_03@2x.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-10 00:15:41 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/showroom/albumcovers/album_01@2x.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-10 00:15:41 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/showroom/albumcovers/album_02@2x.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-10 00:15:41 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/showroom/albumcovers/album_04@2x.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-10 00:15:41 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/showroom/albumcovers/album_03@2x.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-10 00:15:43 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/showroom/albumcovers/album_03@2x.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-10 00:15:43 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/showroom/albumcovers/album_02@2x.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-10 00:15:43 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/showroom/albumcovers/album_01@2x.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-10 00:15:43 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/showroom/albumcovers/album_04@2x.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-12 18:35:14 Error: [MissingControllerException] Controller class Productieproces.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Productieproces.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/productieproces.html
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-12 18:35:18 Error: [MissingControllerException] Controller class Contact.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Contact.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/contact.html
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-12 18:35:23 Error: [MissingControllerException] Controller class Showroom.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Showroom.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/showroom.html
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-12 18:37:56 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/Personal/StaelsBorco/app/View/Galleries/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/MAMP/htdocs/Personal/StaelsBorco/app/View/Galleries/index.ctp',
+)
+Request URL: /Personal/StaelsBorco/galleries
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(GalleriesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-12 18:37:59 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/Personal/StaelsBorco/app/View/Galleries/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/MAMP/htdocs/Personal/StaelsBorco/app/View/Galleries/index.ctp',
+)
+Request URL: /Personal/StaelsBorco/galleries
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(GalleriesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-12 18:45:17 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/showroom/albumcovers/album_04@2x.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-12 18:45:17 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/showroom/albumcovers/album_02@2x.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-12 18:45:17 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/showroom/albumcovers/album_03@2x.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-12 18:45:17 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/showroom/albumcovers/album_01@2x.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-12 18:47:37 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/showroom/albumcovers/album_01@2x.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-12 18:47:37 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/showroom/albumcovers/album_02@2x.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-12 18:47:37 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/showroom/albumcovers/album_03@2x.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-12 18:47:37 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/showroom/albumcovers/album_04@2x.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-12 18:48:29 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/showroom/albumcovers/album_04@2x.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-12 18:48:29 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/showroom/albumcovers/album_02@2x.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-12 18:48:29 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/showroom/albumcovers/album_03@2x.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-12 18:48:29 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/showroom/albumcovers/album_01@2x.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-12 21:40:19 Error: [MissingControllerException] Controller class GallController could not be found.
+Exception Attributes: array (
+  'class' => 'GallController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/gall
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-12 21:50:40 Error: [MissingControllerException] Controller class Productieproces.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Productieproces.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/productieproces.html
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-12 21:53:09 Error: Fatal Error (4): syntax error, unexpected ')' in [/Applications/MAMP/htdocs/Personal/StaelsBorco/app/View/Elements/menu.ctp, line 5]
+2013-09-12 21:53:09 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /Personal/StaelsBorco/galleries
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 5, Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 5, Array)
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-12 21:58:34 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/Personal/StaelsBorco/app/View/Showroom/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/MAMP/htdocs/Personal/StaelsBorco/app/View/Showroom/index.ctp',
+)
+Request URL: /Personal/StaelsBorco/Showroom
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(ShowroomController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-12 22:26:56 Error: Fatal Error (4): syntax error, unexpected T_ARRAY in [/Applications/MAMP/htdocs/Personal/StaelsBorco/app/Controller/HomeController.php, line 10]
+2013-09-12 22:26:56 Error: [FatalErrorException] syntax error, unexpected T_ARRAY
+Request URL: /Personal/StaelsBorco/Home
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 10, Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 10, Array)
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-12 22:46:21 Error: Fatal Error (64): Can't use method return value in write context in [/Applications/MAMP/htdocs/Personal/StaelsBorco/app/Controller/AppController.php, line 24]
+2013-09-12 22:46:21 Error: [FatalErrorException] Can't use method return value in write context
+Request URL: /Personal/StaelsBorco/Home
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(64, 'Can't use metho...', '/Applications/M...', 24)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use metho...', '/Applications/M...', 24, Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 64, 'Can't use metho...', '/Applications/M...', 24, Array)
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-12 22:54:42 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in [/Applications/MAMP/htdocs/Personal/StaelsBorco/app/Config/database.php, line 67]
+2013-09-12 22:54:42 Error: [FatalErrorException] syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')'
+Request URL: /Personal/StaelsBorco/Home
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 67)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 67, Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 67, Array)
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-12 23:25:27 Error: [MissingActionException] Action ShowroomController::overview() could not be found.
+Exception Attributes: array (
+  'controller' => 'ShowroomController',
+  'action' => 'overview',
+)
+Request URL: /Personal/StaelsBorco/Showroom/overview
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(ShowroomController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
