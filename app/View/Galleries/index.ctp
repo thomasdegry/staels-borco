@@ -1,35 +1,53 @@
-<?php echo $this->Session->flash(); ?>
-<h1>Galerijen</h1>
+<header class="site-header header-showroom">
+    <div class="container">
+        <h1 class="logo">
+            Staels Borco | Slenna
+        </h1>
+        <p class="tagline">
+            <?php echo $translations['tagline'][$language]; ?>
+        </p>
+    </div>
+</header>
 
+<?php echo $this->element('menu'); ?>
 
-<div class="table-responsive">
-	<table class="table">
-		<tr>
-			<th><?php echo $this->Paginator->sort('#'); ?></th>
-			<th><?php echo $this->Paginator->sort('name_nl', 'Naam NL'); ?></th>
-			<th><?php echo $this->Paginator->sort('name_fr', 'Naam FR'); ?></th>
-			<th><?php echo $this->Paginator->sort('name_en', 'Naam EN'); ?></th>
-			<th>#Foto's</th>
-			<th class="actions"><?php echo __('Acties'); ?></th>
-		</tr>
-		<?php foreach ($galleries as $gallery): ?>
-			<tr>
-				<td><?php echo $gallery['Gallery']['id']; ?></td>
-				<td><?php echo $gallery['Gallery']['name_nl']; ?></td>
-				<td><?php echo $gallery['Gallery']['name_fr']; ?></td>
-				<td><?php echo $gallery['Gallery']['name_en']; ?></td>
-				<td><?php echo count($gallery['Picture']); ?></td>
-				<td class="actions" width="320">
-					<?php echo $this->Html->link('<span class="glyphicon glyphicon-picture"></span> Foto\'s beheren', array('action' => 'view', $gallery['Gallery']['id']), array('class' => array('btn', 'btn-xs', 'btn-default'), 'escape' => false)); ?>
+<section class="container">
+    <header class="introduction introduction-no-bottom">
+        <h1 class="introduction-heading"><span><?php echo __('Showroom'); ?></span></h1>
+        <div class="showroom-current-album">
+            <h2 class="showroom-current-album-title">
+                <span>Album 01</span> <a href="#" class="showroom-back"><?php echo __('Overzicht'); ?></a>
+            </h2>
+        </div>
+    </header>
 
-					<?php echo $this->Html->link('<span class="glyphicon glyphicon-wrench"></span> Aanpassen', array('action' => 'edit', $gallery['Gallery']['id']), array('class' => array('btn', 'btn-xs', 'btn-default'), 'escape' => false)); ?>
+    <ul id="showroom" class="tp-grid gallery-grid">
+        <?php foreach($galleries as $gallery): ?>
+            <?php foreach($gallery['Picture'] as $picture): ?>
+                <li data-pile="<?php echo $gallery['Gallery']['name_' . $language]; ?>">
+                    <a href="#">
+                        <?php echo $this->Html->image('uploads/thumbnail/' . $picture['name']); ?>
+                    </a>
+                </li>
+            <?php endforeach; ?>
+        <?php endforeach; ?>
+    </ul>
+</section>
 
-					<?php echo $this->Form->postLink('<span class="glyphicon glyphicon-trash"></span> Verwijderen', array('action' => 'delete', $gallery['Gallery']['id']), array('escape' => false, 'class' => array('btn', 'btn-xs', 'btn-default')), __('Bent u zeker dat u dit album met de naam &quot;%s&quot; wilt verwijderen?', $gallery['Gallery']['name_nl'])); ?>
-				</td>
-			</tr>
-		<?php endforeach; ?>
-	</table>
-	<?php echo $this->Html->link('Galerij toevoegen', array('action' => 'add'), array('class' => array('btn', 'btn-primary', 'table-primary-button'))); ?>
+<div class="overlay-container">
+    <div class="overlay-content">
+        <div class="overlay-image">
+            <img src="" />
+            <a href="#" class="overlay-next"></a>
+            <a href="#" class="overlay-previous"></a>
+        </div>
+        <div class="overlay-title">
+            <h2>Showroom 01</h2>
+            <ul class="overlay-actions">
+                <li class="overlay-action"><a href="#" class="overlay-previous"></a></li>
+                <li class="overlay-action"><a href="#" class="overlay-close"></a></li>
+                <li class="overlay-action"><a href="#" class="overlay-next"></a></li>
+            </ul>
+        </div>
+    </div>
 </div>
-
-

@@ -21,8 +21,38 @@ class AppController extends Controller {
     );
 
     public function beforeFilter() {
+        if($this->Session->read('Config.language') == NULL) {
+            $this->Session->write('Config.language', 'dut');
+        }
+
+        $this->Auth->allow('index');
         $this->set('logged_in', $this->Auth->loggedIn());
         $this->set('current_user', $this->Auth->user());
+
+        Configure::write('Config.language', $this->Session->read('Config.language'));
+        $this->set('language', $this->Session->read('Config.language'));
+    }
+
+    public function setLanguage() {
+        $language = $this->request['pass'][0];
+        $this->Auth->allow('index');
+
+        switch($language) {
+            case 'fre':
+                $this->Session->write('Config.language', 'fre');
+                break;
+
+            case 'eng':
+                $this->Session->write('Config.language', 'eng');
+                break;
+
+            case 'dut':
+            default:
+                $this->Session->write('Config.language', 'dut');
+                break;
+        }
+
+        $this->redirect(array('controller' => $this->name, 'action' => 'index'));
     }
 
 }

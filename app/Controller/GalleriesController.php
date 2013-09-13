@@ -11,6 +11,27 @@ class GalleriesController extends AppController {
 	public $components = array('Paginator');
 
 	public function index() {
+        $this->layout = 'frontend';
+        $this->loadModel('Translation');
+
+        $galleries = $this->Gallery->find('all');
+
+        $clean = array();
+        $translations = $this->Translation->find('all', array(
+            'conditions' => array(
+                'Translation.page' => array('general', 'gallery')
+            )
+        ));
+
+        foreach($translations as $translation) {
+            $clean[$translation['Translation']['tag']] = $translation['Translation'];
+        }
+
+        $this->set('translations', $clean);
+        $this->set('galleries', $galleries);
+	}
+
+	public function overview() {
 		$this->paginate = array(
                 'limit' => 1000,
            );
@@ -51,7 +72,7 @@ class GalleriesController extends AppController {
 		if ($this->request->is('post') || $this->request->is('put')) {
 			if ($this->Gallery->save($this->request->data)) {
 				$this->Session->setFlash(__('De galerij werd bewaard.'), 'good_flash');
-				return $this->redirect(array('action' => 'index'));
+				return $this->redirect(array('action' => 'overview'));
 			} else {
 				$this->Session->setFlash(__('De galerij kon niet worden opgeslaan...'), 'bad_flash');
 			}
@@ -83,9 +104,9 @@ class GalleriesController extends AppController {
 			$this->Picture->deleteAll(array('Picture.gallery_id' => $id), false);
 
 			$this->Session->setFlash(__('De galerij werd verwijderd'), 'good_flash');
-			return $this->redirect(array('action' => 'index'));
+			return $this->redirect(array('action' => 'overview'));
 		}
 		$this->Session->setFlash(__('De galerij kon niet worden verwijderd'), 'bad_flash');
-		return $this->redirect(array('action' => 'index'));
+		return $this->redirect(array('action' => 'overview'));
 	}
 }

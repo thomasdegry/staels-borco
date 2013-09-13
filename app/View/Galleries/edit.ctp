@@ -5,7 +5,7 @@
 
 		<div class="form-group">
 			<?php 
-				echo $this->Form->input('name_nl', array(
+				echo $this->Form->input('name_dut', array(
 					'class' => 'form-control',
 					'label' => 'Nederlands album naam'
 				));
@@ -14,7 +14,7 @@
 
 		<div class="form-group">
 			<?php 
-				echo $this->Form->input('name_fr', array(
+				echo $this->Form->input('name_fre', array(
 					'class' => 'form-control',
 					'label' => 'Franse album naam'
 				));
@@ -23,7 +23,7 @@
 
 		<div class="form-group">
 			<?php 
-				echo $this->Form->input('name_en', array(
+				echo $this->Form->input('name_eng', array(
 					'class' => 'form-control',
 					'label' => 'Engelse album naam'
 				));
