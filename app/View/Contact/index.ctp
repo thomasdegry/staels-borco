@@ -63,7 +63,7 @@
                     <input type="email" id="contact-email" name="email" placeholder="<?php echo __('E&#45;mailadres'); ?>" />
                     <span class="error-message"><?php echo __('Ongeldig emailadres'); ?></span>
                 </div>
-                <div class="input-group hidden">
+               <!-- <div class="input-group hidden">
                     <label for="contact-subject"><?php echo __('Kies een onderwerp'); ?></label>
                     <select name="subject" id="contact-subject">
                         <option><?php echo __('Kies een onderwerp'); ?></option>
@@ -76,8 +76,8 @@
                             <option value="6"><?php echo __('Doorlooptijd'); ?></option>
                         </optgroup>
                     </select>
-                </div>
-                <div class="dropdown-group">
+                </div>-->
+        <!--        <div class="dropdown-group">
                     <div class="fake-dropdown" data-select="contact-subject">
                         <a href="#" class="fake-dropdown-toggle"><?php echo __('Kies een onderwerp'); ?></a>
                         <ul class="fake-dropdown-options">
@@ -89,10 +89,10 @@
                             <li><a href="#6" class="fake-dropdown-option"><?php echo __('Doorlooptijd'); ?></a></li>
                         </ul>
                     </div>
-                </div>
+                </div>-->
                 <div class="input-group">
-                    <label for="contact-message"><?php echo __('Jouw boodschap'); ?></label>
-                    <textarea id="contact-message" name="message" placeholder="<?php echo __('Jouw boodschap'); ?>"></textarea>
+                    <label for="contact-message"><?php echo __('Je vraag'); ?></label>
+                    <textarea id="contact-message" name="message" placeholder="<?php echo __('Je vraag'); ?>"></textarea>
                     <span class="error-message error-message-textarea"><?php echo __('Jouw boodschap moet minstens tien woorden lang zijn'); ?></span>
                 </div>
                 <div class="button-group">

@@ -3065,3 +3065,41 @@ Stack Trace:
 #1 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(ShowroomController), Object(CakeRequest), Object(CakeResponse))
 #2 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2013-09-13 12:51:35 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /staels-borco1/users
+Stack Trace:
+#0 /Applications/MAMP/htdocs/staels-borco1/lib/Cake/Model/Model.php(3247): Model->setSource('users')
+#1 /Applications/MAMP/htdocs/staels-borco1/lib/Cake/Model/Model.php(1318): Model->getDataSource()
+#2 /Applications/MAMP/htdocs/staels-borco1/lib/Cake/View/Helper/FormHelper.php(199): Model->schema()
+#3 /Applications/MAMP/htdocs/staels-borco1/lib/Cake/View/Helper/FormHelper.php(451): FormHelper->_introspectModel('User', 'fields')
+#4 /Applications/MAMP/htdocs/staels-borco1/app/View/Users/index.ctp(6): FormHelper->create()
+#5 /Applications/MAMP/htdocs/staels-borco1/lib/Cake/View/View.php(945): include('/Applications/M...')
+#6 /Applications/MAMP/htdocs/staels-borco1/lib/Cake/View/View.php(907): View->_evaluate('/Applications/M...', Array)
+#7 /Applications/MAMP/htdocs/staels-borco1/lib/Cake/View/View.php(471): View->_render('/Applications/M...')
+#8 /Applications/MAMP/htdocs/staels-borco1/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#9 /Applications/MAMP/htdocs/staels-borco1/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#10 /Applications/MAMP/htdocs/staels-borco1/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/staels-borco1/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-09-13 12:51:49 Error: [MissingTableException] Table galleries for model Gallery was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'galleries',
+  'class' => 'Gallery',
+  'ds' => 'default',
+)
+Request URL: /staels-borco1/Showroom
+Stack Trace:
+#0 /Applications/MAMP/htdocs/staels-borco1/lib/Cake/Model/Model.php(3247): Model->setSource('galleries')
+#1 /Applications/MAMP/htdocs/staels-borco1/lib/Cake/Model/Model.php(2700): Model->getDataSource()
+#2 /Applications/MAMP/htdocs/staels-borco1/app/Controller/GalleriesController.php(17): Model->find('all')
+#3 [internal function]: GalleriesController->index()
+#4 /Applications/MAMP/htdocs/staels-borco1/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(GalleriesController), Array)
+#5 /Applications/MAMP/htdocs/staels-borco1/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 /Applications/MAMP/htdocs/staels-borco1/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(GalleriesController), Object(CakeRequest), Object(CakeResponse))
+#7 /Applications/MAMP/htdocs/staels-borco1/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
