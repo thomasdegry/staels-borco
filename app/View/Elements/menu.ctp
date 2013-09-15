@@ -2,8 +2,8 @@
     <div class="container">
         <a href="index.html" class="current site-nav-logo"><?php echo $this->Html->image('footer-logo.png'); ?></a>
         <ul class="site-nav">
-            <li class="site-nav-item <?php if($this->name == 'Home'): ?>current<?php endif; ?>"><?php echo $this->Html->link(__('Wie'), array('controller' => 'Home', 'action' => 'index'), array('id' => 'nav-index-link')); ?></li>
-            <li class="site-nav-item <?php if($this->name == 'About'): ?>current<?php endif; ?>"><?php echo $this->Html->link(__('Wat'), array('controller' => 'About', 'action' => 'index')); ?></li>
+            <li class="site-nav-item <?php if($this->name == 'Home'): ?>current<?php endif; ?>"><?php echo $this->Html->link(__('Over ons'), array('controller' => 'Home', 'action' => 'index'), array('id' => 'nav-index-link')); ?></li>
+            <li class="site-nav-item <?php if($this->name == 'About'): ?>current<?php endif; ?>"><?php echo $this->Html->link(__('Productieproces'), array('controller' => 'About', 'action' => 'index')); ?></li>
             <li class="site-nav-item <?php if($this->name == 'Galleries'): ?>current<?php endif; ?>"><?php echo $this->Html->link(__('Galerij'), array('controller' => 'Showroom', 'action' => 'index')); ?></li>
             <li class="site-nav-item <?php if($this->name == 'Contact'): ?>current<?php endif; ?>"><?php echo $this->Html->link(__('Contact'), array('controller' => 'Contact', 'action' => 'index')); ?></li>
         </ul>
