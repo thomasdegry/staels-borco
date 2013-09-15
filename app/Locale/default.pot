@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2013-09-15 12:59+0000\n"
+"POT-Creation-Date: 2013-09-15 14:24+0000\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -79,52 +79,48 @@ msgid "User was not deleted"
 msgstr ""
 
 #: View/About/index.ctp:17
+#: View/Elements/menu.ctp:6
 msgid "Productieproces"
 msgstr ""
 
-#: View/About/index.ctp:25
-msgid "Ontwerp-ontwikkeling"
-msgstr ""
-
-#: View/About/index.ctp:30
-#: View/Home/index.ctp:58
-msgid "Ligging"
+#: View/About/index.ctp:25;30
+msgid "Styling"
 msgstr ""
 
 #: View/About/index.ctp:38;43
-msgid "Stoffenkeuze"
+msgid "Stoffen keuze"
 msgstr ""
 
 #: View/About/index.ctp:51;56
-msgid "Patroonontwerp"
+msgid "Modelisme"
 msgstr ""
 
 #: View/About/index.ctp:64;69
-msgid "Eerste proto"
+msgid "Proto"
 msgstr ""
 
 #: View/About/index.ctp:78;83
-msgid "Wijzigingsfase"
+msgid "Aanpassing"
 msgstr ""
 
 #: View/About/index.ctp:91;96
-msgid "Definitieve versie"
+msgid "Verkoopstalen"
 msgstr ""
 
 #: View/About/index.ctp:104;109
-msgid "Orderfase"
+msgid "Order"
 msgstr ""
 
 #: View/About/index.ctp:117;122
-msgid "Gradeerfase"
+msgid "Gradatie"
 msgstr ""
 
 #: View/About/index.ctp:130;135
-msgid "Productiefase"
+msgid "Productie"
 msgstr ""
 
 #: View/About/index.ctp:143;148
-msgid "Levering &amp; facturatie"
+msgid "Verpakking &amp; facturatie"
 msgstr ""
 
 #: View/About/index.ctp:156;161
@@ -185,7 +181,7 @@ msgid "Doorlooptijd"
 msgstr ""
 
 #: View/Contact/index.ctp:94;95
-msgid "Jouw boodschap"
+msgid "Je vraag"
 msgstr ""
 
 #: View/Contact/index.ctp:96
@@ -197,11 +193,8 @@ msgid "Verzenden"
 msgstr ""
 
 #: View/Elements/menu.ctp:5
-msgid "Wie"
-msgstr ""
-
-#: View/Elements/menu.ctp:6
-msgid "Wat"
+#: View/Home/index.ctp:16
+msgid "Over ons"
 msgstr ""
 
 #: View/Elements/menu.ctp:7
@@ -226,10 +219,6 @@ msgstr ""
 
 #: View/Galleries/overview.ctp:27
 msgid "Bent u zeker dat u dit album met de naam &quot;%s&quot; wilt verwijderen?"
-msgstr ""
-
-#: View/Home/index.ctp:16
-msgid "Over ons"
 msgstr ""
 
 #: View/Home/index.ctp:23
@@ -262,6 +251,10 @@ msgstr ""
 
 #: View/Home/index.ctp:51
 msgid "Aantal klanten waarvoor we werken"
+msgstr ""
+
+#: View/Home/index.ctp:58
+msgid "Ligging"
 msgstr ""
 
 #: View/Home/index.ctp:62

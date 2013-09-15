@@ -4,16 +4,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Staels Borco\n"
-"POT-Creation-Date: 2013-09-15 12:59+0000\n"
-"PO-Revision-Date: 2013-09-15 15:07+0100\n"
+"POT-Creation-Date: 2013-09-15 14:24+0000\n"
+"PO-Revision-Date: 2013-09-15 16:25+0100\n"
 "Last-Translator: \n"
 "Language-Team: Dreamteam <degry.thomas@gmail.com>\n"
+"Language: NL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "X-Generator: Poedit 1.5.5\n"
-"Language: NL\n"
 
 #: Controller/GalleriesController.php:45;70;99
 msgid "Invalid gallery"
@@ -79,52 +79,48 @@ msgstr ""
 msgid "User was not deleted"
 msgstr ""
 
-#: View/About/index.ctp:17
+#: View/About/index.ctp:17 View/Elements/menu.ctp:6
 msgid "Productieproces"
 msgstr ""
 
-#: View/About/index.ctp:25
-msgid "Ontwerp-ontwikkeling"
-msgstr ""
-
-#: View/About/index.ctp:30 View/Home/index.ctp:58
-msgid "Ligging"
+#: View/About/index.ctp:25;30
+msgid "Styling"
 msgstr ""
 
 #: View/About/index.ctp:38;43
-msgid "Stoffenkeuze"
+msgid "Stoffen keuze"
 msgstr ""
 
 #: View/About/index.ctp:51;56
-msgid "Patroonontwerp"
+msgid "Modelisme"
 msgstr ""
 
 #: View/About/index.ctp:64;69
-msgid "Eerste proto"
+msgid "Proto"
 msgstr ""
 
 #: View/About/index.ctp:78;83
-msgid "Wijzigingsfase"
+msgid "Aanpassing"
 msgstr ""
 
 #: View/About/index.ctp:91;96
-msgid "Definitieve versie"
+msgid "Verkoopstalen"
 msgstr ""
 
 #: View/About/index.ctp:104;109
-msgid "Orderfase"
+msgid "Order"
 msgstr ""
 
 #: View/About/index.ctp:117;122
-msgid "Gradeerfase"
+msgid "Gradatie"
 msgstr ""
 
 #: View/About/index.ctp:130;135
-msgid "Productiefase"
+msgid "Productie"
 msgstr ""
 
 #: View/About/index.ctp:143;148
-msgid "Levering &amp; facturatie"
+msgid "Verpakking &amp; facturatie"
 msgstr ""
 
 #: View/About/index.ctp:156;161 View/Home/index.ctp:81
@@ -184,7 +180,7 @@ msgid "Doorlooptijd"
 msgstr ""
 
 #: View/Contact/index.ctp:94;95
-msgid "Jouw boodschap"
+msgid "Je vraag"
 msgstr ""
 
 #: View/Contact/index.ctp:96
@@ -195,12 +191,8 @@ msgstr ""
 msgid "Verzenden"
 msgstr ""
 
-#: View/Elements/menu.ctp:5
-msgid "Wie"
-msgstr "Who"
-
-#: View/Elements/menu.ctp:6
-msgid "Wat"
+#: View/Elements/menu.ctp:5 View/Home/index.ctp:16
+msgid "Over ons"
 msgstr ""
 
 #: View/Elements/menu.ctp:7
@@ -226,10 +218,6 @@ msgstr ""
 #: View/Galleries/overview.ctp:27
 msgid ""
 "Bent u zeker dat u dit album met de naam &quot;%s&quot; wilt verwijderen?"
-msgstr ""
-
-#: View/Home/index.ctp:16
-msgid "Over ons"
 msgstr ""
 
 #: View/Home/index.ctp:23
@@ -262,6 +250,10 @@ msgstr ""
 
 #: View/Home/index.ctp:51
 msgid "Aantal klanten waarvoor we werken"
+msgstr ""
+
+#: View/Home/index.ctp:58
+msgid "Ligging"
 msgstr ""
 
 #: View/Home/index.ctp:62
@@ -348,3 +340,6 @@ msgstr ""
 #: Model/User.php:validation for field email
 msgid "email"
 msgstr ""
+
+#~ msgid "Wie"
+#~ msgstr "Who"
