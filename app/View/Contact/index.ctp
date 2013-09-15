@@ -48,7 +48,7 @@
             </div>
         </div>
         <div class="main">
-            <h2 class="hidden">Stuur ons een e&#45;mail</h2>
+            <h2 class="hidden">Stuur ons een e-mail</h2>
             <form>
                 <div>
                     <input type="hidden" name="lang" value="nl" />
@@ -59,8 +59,8 @@
                     <span class="error-message"><?php echo __('Verplicht veld'); ?></span>
                 </div>
                 <div class="input-group">
-                    <label for="contact-email"><?php echo __('E&#45;mailadres'); ?></label>
-                    <input type="email" id="contact-email" name="email" placeholder="<?php echo __('E&#45;mailadres'); ?>" />
+                    <label for="contact-email"><?php echo __('E-mailadres'); ?></label>
+                    <input type="email" id="contact-email" name="email" placeholder="<?php echo __('E-mailadres'); ?>" />
                     <span class="error-message"><?php echo __('Ongeldig emailadres'); ?></span>
                 </div>
                 <div class="input-group hidden">
