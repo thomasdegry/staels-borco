@@ -3103,3 +3103,3069 @@ Stack Trace:
 #6 /Applications/MAMP/htdocs/staels-borco1/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(GalleriesController), Object(CakeRequest), Object(CakeResponse))
 #7 /Applications/MAMP/htdocs/staels-borco1/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #8 {main}
+2013-09-15 14:43:55 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[42000] [1049] Unknown database \'personal_staelsborco\'',
+  'enabled' => true,
+)
+Request URL: /staels-borco/
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/lib/Cake/Model/Datasource/DboSource.php(262): Mysql->connect()
+#1 /Users/pieterbeulque/Sites/staels-borco/lib/Cake/Model/ConnectionManager.php(107): DboSource->__construct(Array)
+#2 /Users/pieterbeulque/Sites/staels-borco/lib/Cake/Model/Model.php(3225): ConnectionManager::getDataSource('default')
+#3 /Users/pieterbeulque/Sites/staels-borco/lib/Cake/Model/Model.php(1107): Model->setDataSource('default')
+#4 /Users/pieterbeulque/Sites/staels-borco/lib/Cake/Model/Model.php(3247): Model->setSource('translations')
+#5 /Users/pieterbeulque/Sites/staels-borco/lib/Cake/Model/Model.php(2700): Model->getDataSource()
+#6 /Users/pieterbeulque/Sites/staels-borco/app/Controller/HomeController.php(17): Model->find('all', Array)
+#7 [internal function]: HomeController->index()
+#8 /Users/pieterbeulque/Sites/staels-borco/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#9 /Users/pieterbeulque/Sites/staels-borco/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/pieterbeulque/Sites/staels-borco/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-09-15 14:47:15 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Translation.page' in 'where clause'
+Request URL: /staels-borco/
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Users/pieterbeulque/Sites/staels-borco/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Transla...', Array)
+#2 /Users/pieterbeulque/Sites/staels-borco/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Transla...', Array, Array)
+#3 /Users/pieterbeulque/Sites/staels-borco/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Transla...', false)
+#4 /Users/pieterbeulque/Sites/staels-borco/lib/Cake/Model/Model.php(2700): DboSource->read(Object(Translation), Array)
+#5 /Users/pieterbeulque/Sites/staels-borco/app/Controller/HomeController.php(17): Model->find('all', Array)
+#6 [internal function]: HomeController->index()
+#7 /Users/pieterbeulque/Sites/staels-borco/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#8 /Users/pieterbeulque/Sites/staels-borco/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/pieterbeulque/Sites/staels-borco/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-09-15 14:47:17 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Translation.page' in 'where clause'
+Request URL: /staels-borco/
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Users/pieterbeulque/Sites/staels-borco/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Transla...', Array)
+#2 /Users/pieterbeulque/Sites/staels-borco/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Transla...', Array, Array)
+#3 /Users/pieterbeulque/Sites/staels-borco/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Transla...', false)
+#4 /Users/pieterbeulque/Sites/staels-borco/lib/Cake/Model/Model.php(2700): DboSource->read(Object(Translation), Array)
+#5 /Users/pieterbeulque/Sites/staels-borco/app/Controller/HomeController.php(17): Model->find('all', Array)
+#6 [internal function]: HomeController->index()
+#7 /Users/pieterbeulque/Sites/staels-borco/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#8 /Users/pieterbeulque/Sites/staels-borco/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/pieterbeulque/Sites/staels-borco/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-09-15 15:28:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 15:28:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 15:32:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 15:32:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 15:34:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 15:34:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 15:36:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 15:36:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 15:36:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 15:36:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 15:42:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 15:42:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 15:42:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 15:42:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 15:43:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 15:43:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 15:59:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 15:59:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:17:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:17:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:17:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-heading@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:17:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:17:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/nav-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:17:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/staels-borco@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:17:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/overlay-next@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:17:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/icon-address@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:17:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/map-marker@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:17:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/overlay-previous@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:17:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/icon-email@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:17:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/icon-tel@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:17:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/overlay-close@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:17:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:17:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:17:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/staels-borco@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:17:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/nav-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:17:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:17:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-heading@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:17:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/icon-tel@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:17:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/icon-email@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:17:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/icon-address@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:17:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/map-marker@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:17:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:17:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:17:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:17:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/staels-borco@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:17:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/nav-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:17:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/icon-address@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:17:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/icon-tel@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:17:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-heading@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:17:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/map-marker@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:17:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/icon-email@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:25:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:25:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:25:24 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:25:24 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/staels-borco@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:25:24 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/nav-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:25:25 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-heading@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:25:25 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/icon-address@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:25:25 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/icon-tel@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:25:25 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/icon-email@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:25:25 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/map-marker@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:25:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:25:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:25:26 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:25:26 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/staels-borco@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:25:26 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/nav-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:25:26 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-heading@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:25:26 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/icon-address@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:25:26 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/icon-tel@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:25:26 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/icon-email@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:25:26 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/map-marker@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:25:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:25:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:25:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/staels-borco@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:25:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/nav-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:25:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-heading@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:25:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:25:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/icon-address@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:25:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/icon-tel@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:25:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/icon-email@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:25:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/map-marker@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/staels-borco@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/nav-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-heading@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/icon-address@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/icon-tel@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/map-marker@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/icon-email@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:12 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/staels-borco@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:12 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/nav-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:12 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-heading@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:12 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:12 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/icon-address@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:12 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/icon-email@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:12 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/icon-tel@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:12 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/map-marker@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:13 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:13 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:13 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/staels-borco@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:13 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/nav-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:13 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-heading@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:13 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:13 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/icon-tel@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:13 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/icon-email@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:13 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/map-marker@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:13 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/icon-address@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:14 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:14 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:14 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/staels-borco@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:14 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/nav-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:14 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:14 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-heading@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:14 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/icon-email@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:14 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/map-marker@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:14 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/icon-tel@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:14 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/icon-address@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:15 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:15 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:16 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/nav-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:16 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/staels-borco@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:16 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:16 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-heading@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:16 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/icon-address@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:16 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/icon-tel@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:16 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/icon-email@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:16 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/map-marker@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:17 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-heading@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:17 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:17 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/staels-borco@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:17 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/nav-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:17 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/icon-address@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:17 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/icon-tel@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:17 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/icon-email@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:17 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/map-marker@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/nav-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/staels-borco@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/icon-email@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/icon-tel@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/map-marker@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/icon-address@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:28:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-heading@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:31:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:31:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:31:24 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/nav-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:31:24 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-heading@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:31:24 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:31:34 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:31:34 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:31:34 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:31:34 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/zipper@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:31:35 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/nav-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:31:35 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-heading@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:31:35 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/production-process-title-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:31:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:31:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:31:36 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/nav-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:31:36 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:31:36 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-heading@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:34:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:34:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:34:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/nav-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:34:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-heading@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:34:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:34:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:34:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:34:11 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:34:11 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/zipper@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:34:11 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/nav-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:34:11 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-heading@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:34:11 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/production-process-title-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:35:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:35:13 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:35:13 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/nav-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:35:13 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:35:13 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-heading@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:35:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:35:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:35:23 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/nav-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:35:23 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:35:23 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-heading@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:36:35 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:36:35 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:36:35 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/zipper@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:36:35 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:36:36 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/nav-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:36:36 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-heading@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:36:36 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/production-process-title-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:37:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:37:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:37:38 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/zipper@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:37:38 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:37:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/nav-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:37:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/production-process-title-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:37:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-heading@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:37:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:37:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:37:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:37:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/zipper@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:37:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/nav-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:37:41 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-heading@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:37:41 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/production-process-title-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:38:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:38:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:38:16 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:38:16 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/zipper@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:38:16 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-heading@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:38:17 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/production-process-title-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:38:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:38:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:38:27 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:38:27 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-heading@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:38:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:38:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:38:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/zipper@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:38:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:38:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-heading@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:38:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/production-process-title-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:38:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:38:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:38:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:38:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-heading@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:39:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:39:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:39:03 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:39:03 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/zipper@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:39:04 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-heading@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:39:04 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/production-process-title-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:39:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:39:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:39:05 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:39:05 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/introduction-heading@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:42:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:42:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:42:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:42:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:42:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/zipper@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:42:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/production-process-title-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:42:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:42:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:46:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:46:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:46:30 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/zipper@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:46:30 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/production-process-title-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:46:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:46:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:46:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:46:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:46:50 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/zipper@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:46:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/production-process-title-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:46:54 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:46:54 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:48:06 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:48:06 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:48:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:48:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:48:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:48:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:48:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:48:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:48:51 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:48:52 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:54:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:54:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:55:20 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:55:20 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:55:20 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/zipper@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 16:55:20 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/img/production-process-title-separator@1x.png
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:06:07 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:06:07 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:06:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:06:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:06:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:06:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:06:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:06:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:09:51 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:09:51 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:10:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:10:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:10:37 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:10:37 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:10:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:10:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:10:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:10:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:10:56 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:10:56 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:14:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:14:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:18:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:18:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:18:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:18:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:18:47 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:18:47 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:19:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:19:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:19:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:19:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:19:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:19:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:19:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:19:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:20:15 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:20:15 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:20:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:20:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:20:53 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:20:53 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:20:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:20:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:28:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:28:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:28:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:28:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:29:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:29:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:31:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:31:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:31:25 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:31:25 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:33:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:33:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:33:25 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/respond.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 17:33:25 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /staels-borco/js/vendor/selectivizr.js
+Stack Trace:
+#0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

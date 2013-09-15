@@ -8,14 +8,20 @@
     <?php
         echo $this->Html->meta('icon');
 
-
         echo $this->fetch('meta');
         echo $this->fetch('css');
         echo $this->fetch('script');
     ?>
 
-    <?php echo $this->Html->css(array('normalize.css', 'style.css')); ?>
+    <?php echo $this->Html->script(array('vendor/modernizr.js')); ?>
 
+    <?php echo $this->Html->css(array('http://fonts.googleapis.com/css?family=Bitter:400,700,400italic', 'normalize.css', 'style.css')); ?>
+
+    <?php echo $this->Html->script(array('vendor/jquery-1.8.3.min.js')); ?>
+
+    <!--[if lt IE 9]>
+        <?php echo $this->Html->script(array('vendor/respond.js', 'vendor/selectivizr.js', 'vendor/opacity-polyfill.js')); ?>
+    <![endif]-->
 </head>
 <body>
 
@@ -53,7 +59,7 @@
 <?php echo $this->element('sql_dump'); ?>
 
 <?php
-    echo $this->Html->script(array('vendor/jquery-1.8.3.min.js', 'vendor/modernizr.js', 'vendor/jquery.stapel.js', 'app.js'));
+    echo $this->Html->script(array('vendor/jquery.stapel.js', 'app.js'));
 ?>
 
 </body>
