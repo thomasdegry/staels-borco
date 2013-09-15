@@ -25,7 +25,7 @@ class AppController extends Controller {
             $this->Session->write('Config.language', 'dut');
         }
 
-        $this->Auth->allow('index');
+        $this->Auth->allow('index', 'setLanguage');
         $this->set('logged_in', $this->Auth->loggedIn());
         $this->set('current_user', $this->Auth->user());
 

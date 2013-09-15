@@ -1,0 +1,344 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2013-09-15 14:24+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/GalleriesController.php:45;70;99
+msgid "Invalid gallery"
+msgstr ""
+
+#: Controller/GalleriesController.php:60
+msgid "De nieuwe galerij werd aangemaakt. Je kan nu foto's toevoegen!"
+msgstr ""
+
+#: Controller/GalleriesController.php:63;77
+msgid "De galerij kon niet worden opgeslaan..."
+msgstr ""
+
+#: Controller/GalleriesController.php:74
+msgid "De galerij werd bewaard."
+msgstr ""
+
+#: Controller/GalleriesController.php:106
+msgid "De galerij werd verwijderd"
+msgstr ""
+
+#: Controller/GalleriesController.php:109
+msgid "De galerij kon niet worden verwijderd"
+msgstr ""
+
+#: Controller/PicturesController.php:15;37;69
+msgid "Invalid picture"
+msgstr ""
+
+#: Controller/PicturesController.php:25;52
+msgid "The picture has been saved"
+msgstr ""
+
+#: Controller/PicturesController.php:28;55
+msgid "The picture could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/PicturesController.php:78
+msgid "Picture deleted"
+msgstr ""
+
+#: Controller/PicturesController.php:81
+msgid "Picture was not deleted"
+msgstr ""
+
+#: Controller/UsersController.php:29;49;71
+msgid "Invalid user"
+msgstr ""
+
+#: Controller/UsersController.php:39;53
+msgid "The user has been saved"
+msgstr ""
+
+#: Controller/UsersController.php:42;56
+msgid "The user could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:75
+msgid "User deleted"
+msgstr ""
+
+#: Controller/UsersController.php:78
+msgid "User was not deleted"
+msgstr ""
+
+#: View/About/index.ctp:17
+#: View/Elements/menu.ctp:6
+msgid "Productieproces"
+msgstr ""
+
+#: View/About/index.ctp:25;30
+msgid "Styling"
+msgstr ""
+
+#: View/About/index.ctp:38;43
+msgid "Stoffen keuze"
+msgstr ""
+
+#: View/About/index.ctp:51;56
+msgid "Modelisme"
+msgstr ""
+
+#: View/About/index.ctp:64;69
+msgid "Proto"
+msgstr ""
+
+#: View/About/index.ctp:78;83
+msgid "Aanpassing"
+msgstr ""
+
+#: View/About/index.ctp:91;96
+msgid "Verkoopstalen"
+msgstr ""
+
+#: View/About/index.ctp:104;109
+msgid "Order"
+msgstr ""
+
+#: View/About/index.ctp:117;122
+msgid "Gradatie"
+msgstr ""
+
+#: View/About/index.ctp:130;135
+msgid "Productie"
+msgstr ""
+
+#: View/About/index.ctp:143;148
+msgid "Verpakking &amp; facturatie"
+msgstr ""
+
+#: View/About/index.ctp:156;161
+#: View/Home/index.ctp:81
+msgid "Transport"
+msgstr ""
+
+#: View/About/index.ctp:173
+msgid "Heeft u nog vragen? Neem dan gerust"
+msgstr ""
+
+#: View/About/index.ctp:173
+msgid "met ons op!"
+msgstr ""
+
+#: View/Contact/index.ctp:57;58
+msgid "Naam"
+msgstr ""
+
+#: View/Contact/index.ctp:59
+msgid "Verplicht veld"
+msgstr ""
+
+#: View/Contact/index.ctp:62;63
+msgid "E-mailadres"
+msgstr ""
+
+#: View/Contact/index.ctp:64
+msgid "Ongeldig emailadres"
+msgstr ""
+
+#: View/Contact/index.ctp:67;69;82
+msgid "Kies een onderwerp"
+msgstr ""
+
+#: View/Contact/index.ctp:71;84
+msgid "Algemene vragen"
+msgstr ""
+
+#: View/Contact/index.ctp:72;85
+msgid "Stofkeuze"
+msgstr ""
+
+#: View/Contact/index.ctp:73;86
+msgid "Kostprijs"
+msgstr ""
+
+#: View/Contact/index.ctp:74;87
+msgid "Patronen"
+msgstr ""
+
+#: View/Contact/index.ctp:75;88
+msgid "Ordergrootte"
+msgstr ""
+
+#: View/Contact/index.ctp:76;89
+msgid "Doorlooptijd"
+msgstr ""
+
+#: View/Contact/index.ctp:94;95
+msgid "Je vraag"
+msgstr ""
+
+#: View/Contact/index.ctp:96
+msgid "Jouw boodschap moet minstens tien woorden lang zijn"
+msgstr ""
+
+#: View/Contact/index.ctp:99
+msgid "Verzenden"
+msgstr ""
+
+#: View/Elements/menu.ctp:5
+#: View/Home/index.ctp:16
+msgid "Over ons"
+msgstr ""
+
+#: View/Elements/menu.ctp:7
+msgid "Galerij"
+msgstr ""
+
+#: View/Elements/menu.ctp:8
+msgid "Contact"
+msgstr ""
+
+#: View/Galleries/index.ctp:16
+msgid "Showroom"
+msgstr ""
+
+#: View/Galleries/index.ctp:19
+msgid "Overzicht"
+msgstr ""
+
+#: View/Galleries/overview.ctp:13
+msgid "Acties"
+msgstr ""
+
+#: View/Galleries/overview.ctp:27
+msgid "Bent u zeker dat u dit album met de naam &quot;%s&quot; wilt verwijderen?"
+msgstr ""
+
+#: View/Home/index.ctp:23
+msgid "Ontstaan"
+msgstr ""
+
+#: View/Home/index.ctp:27
+msgid "Staels Borco is ontstaan in"
+msgstr ""
+
+#: View/Home/index.ctp:28;40
+msgid "in Bornem"
+msgstr ""
+
+#: View/Home/index.ctp:29;41
+msgid "in Tunesi&euml;"
+msgstr ""
+
+#: View/Home/index.ctp:35
+msgid "Werknemers"
+msgstr ""
+
+#: View/Home/index.ctp:39
+msgid "Aantal werknemers"
+msgstr ""
+
+#: View/Home/index.ctp:47
+msgid "Klanten"
+msgstr ""
+
+#: View/Home/index.ctp:51
+msgid "Aantal klanten waarvoor we werken"
+msgstr ""
+
+#: View/Home/index.ctp:58
+msgid "Ligging"
+msgstr ""
+
+#: View/Home/index.ctp:62
+msgid "Wij zijn gelegen in"
+msgstr ""
+
+#: View/Home/index.ctp:63
+msgid "Belgi&euml;"
+msgstr ""
+
+#: View/Home/index.ctp:63
+msgid "Bornem"
+msgstr ""
+
+#: View/Home/index.ctp:64
+msgid "Tunesi&euml;"
+msgstr ""
+
+#: View/Home/index.ctp:64
+msgid "Ouardanine"
+msgstr ""
+
+#: View/Home/index.ctp:70
+msgid "Producten"
+msgstr ""
+
+#: View/Home/index.ctp:74
+msgid "Wij maken&hellip;"
+msgstr ""
+
+#: View/Home/index.ctp:75
+msgid "Kleedjes, rokken, broeken en bloesjes voor dames en kinderen"
+msgstr ""
+
+#: View/Home/index.ctp:85
+msgid "Vrachtwagens tussen Belgi&euml; &amp; Tunesi&euml; per week"
+msgstr ""
+
+#: View/Home/index.ctp:96
+msgid "Dynamisch team"
+msgstr ""
+
+#: View/Home/index.ctp:102
+msgid "Modern materiaal"
+msgstr ""
+
+#: View/Layouts/frontend.ctp:28
+msgid "Contacteer ons"
+msgstr ""
+
+#: View/Layouts/frontend.ctp:30
+msgid "Staels Borco NV<br />Lodderstraat 4<br />2880  Bornem"
+msgstr ""
+
+#: View/Layouts/frontend.ctp:48
+msgid "&copy; Copyright Staels Borco 2013 :: Website door"
+msgstr ""
+
+#: View/Users/add.ctp:4
+msgid "Add User"
+msgstr ""
+
+#: View/Users/add.ctp:10
+msgid "Submit"
+msgstr ""
+
+#: View/Users/add.ctp:13
+msgid "Actions"
+msgstr ""
+
+#: View/Users/add.ctp:16
+msgid "List Users"
+msgstr ""
+
+#: Model/Gallery.php:validation for field name_nl;validation for field name_fr;validation for field name_en
+#: Model/User.php:validation for field password
+msgid "notempty"
+msgstr ""
+
+#: Model/Picture.php:validation for field gallery_id
+msgid "numeric"
+msgstr ""
+
+#: Model/User.php:validation for field email
+msgid "email"
+msgstr ""
+
