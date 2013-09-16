@@ -14,7 +14,7 @@
 		echo $this->fetch('css');
 		echo $this->fetch('script');
 	?>
-	
+
 	<?php if($this->action == "view" && $this->name == "Galleries"): ?>
 		<?php echo $this->Html->css(array('blueimp-gallery.min', 'jquery.fileupload-ui')); ?>
 		<noscript><?php echo $this->Html->css('jquery.fileupload-ui-noscript'); ?></noscript>

@@ -43,7 +43,7 @@
         </div>
     </li>
 
-    <li class="stats-item">
+    <li class="stats-item stats-item-third">
         <h2 class="stats-item-heading"><?php echo __('Klanten'); ?></h2>
         <div class="flipcard-card">
             <?php echo $this->Html->image('stats/man-vrouw.png', array('class' => 'flipcard-front')); ?>
@@ -77,7 +77,7 @@
         </div>
     </li>
 
-    <li class="stats-item">
+    <li class="stats-item stats-item-third">
         <h2 class="stats-item-heading"><?php echo __('Transport'); ?></h2>
         <div class="flipcard-card flipcard-back-alternate">
             <?php echo $this->Html->image('stats/transport.png', array('class' => 'flipcard-front')); ?>

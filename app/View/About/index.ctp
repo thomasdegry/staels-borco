@@ -21,7 +21,7 @@
                 <span class="production-process-zipper-top production-process-zipper-top-up"></span>
             </span>
             <ol>
-                <li class="production-process-item">
+                <li class="production-process-item production-process-item-odd production-process-item-first">
                     <h2 class="production-process-item-heading"><?php echo __('Styling'); ?></h2>
                     <span class="production-process-item-step">01</span>
                     <div class="flipcard-card flipcard-bordered">
@@ -34,7 +34,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="production-process-item">
+                <li class="production-process-item production-process-item-second">
                     <h2 class="production-process-item-heading"><?php echo __('Stoffen keuze'); ?></h2>
                     <span class="production-process-item-step">02</span>
                     <div class="flipcard-card flipcard-bordered">
@@ -47,7 +47,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="production-process-item">
+                <li class="production-process-item production-process-item-odd">
                     <h2 class="production-process-item-heading"><?php echo __('Modelisme'); ?></h2>
                     <span class="production-process-item-step">03</span>
                     <div class="flipcard-card flipcard-bordered">
@@ -74,7 +74,7 @@
                     </div>
                 </li>
 
-                <li class="production-process-item">
+                <li class="production-process-item production-process-item-odd">
                     <h2 class="production-process-item-heading"><?php echo __('Aanpassing'); ?></h2>
                     <span class="production-process-item-step">05</span>
                     <div class="flipcard-card flipcard-bordered">
@@ -100,7 +100,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="production-process-item">
+                <li class="production-process-item production-process-item-odd">
                     <h2 class="production-process-item-heading"><?php echo __('Order'); ?></h2>
                     <span class="production-process-item-step">07</span>
                     <div class="flipcard-card flipcard-bordered">
@@ -126,7 +126,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="production-process-item">
+                <li class="production-process-item production-process-item-odd">
                     <h2 class="production-process-item-heading"><?php echo __('Productie'); ?></h2>
                     <span class="production-process-item-step">09</span>
                     <div class="flipcard-card flipcard-bordered">
@@ -152,7 +152,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="production-process-item">
+                <li class="production-process-item production-process-item-odd">
                     <h2 class="production-process-item-heading"><?php echo __('Transport'); ?></h2>
                     <span class="production-process-item-step">11</span>
                     <div class="flipcard-card flipcard-bordered">
