@@ -6189,3 +6189,245 @@ Stack Trace:
 #0 /Users/pieterbeulque/Sites/staels-borco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 >>>>>>> a42754788e9a07757fae192404cb62c2cb9f77b1
 #1 {main}
+2013-09-16 21:18:43 Error: [MissingControllerException] Controller class ContactsController could not be found.
+Exception Attributes: array (
+  'class' => 'ContactsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/contacts/email
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 21:19:33 Error: [MissingControllerException] Controller class ContactsController could not be found.
+Exception Attributes: array (
+  'class' => 'ContactsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/contacts/email
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 21:20:29 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/Personal/StaelsBorco/app/View/Contacts/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/MAMP/htdocs/Personal/StaelsBorco/app/View/Contacts/index.ctp',
+)
+Request URL: /Personal/StaelsBorco/Contact
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(ContactsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-16 21:20:31 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/Personal/StaelsBorco/app/View/Contacts/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/MAMP/htdocs/Personal/StaelsBorco/app/View/Contacts/index.ctp',
+)
+Request URL: /Personal/StaelsBorco/Contact
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(ContactsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-16 21:22:09 Error: Fatal Error (1): Call to undefined function trace() in [/Applications/MAMP/htdocs/Personal/StaelsBorco/app/Controller/ContactsController.php, line 27]
+2013-09-16 21:22:09 Error: [FatalErrorException] Call to undefined function trace()
+Request URL: /Personal/StaelsBorco/contacts/email
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/M...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/M...', 27, Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/M...', 27, Array)
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-16 21:28:03 Error: Fatal Error (1): Call to a member function save() on a non-object in [/Applications/MAMP/htdocs/Personal/StaelsBorco/app/Controller/ContactsController.php, line 28]
+2013-09-16 21:28:03 Error: [FatalErrorException] Call to a member function save() on a non-object
+Request URL: /Personal/StaelsBorco/contacts/email
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 28, Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 28, Array)
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-16 21:28:18 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Request URL: /Personal/StaelsBorco/contacts/email
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('INSERT INTO `pe...', Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `pe...')
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Model/Model.php(1745): DboSource->create(Object(Email), Array, Array)
+#4 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/Controller/ContactsController.php(28): Model->save(Array)
+#5 [internal function]: ContactsController->email()
+#6 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ContactsController), Array)
+#7 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(ContactsController), Object(CakeRequest), Object(CakeResponse))
+#9 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-09-16 21:32:16 Error: [MissingControllerException] Controller class ContactController could not be found.
+Exception Attributes: array (
+  'class' => 'ContactController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/contact/email
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 21:43:06 Error: [MissingControllerException] Controller class ContactController could not be found.
+Exception Attributes: array (
+  'class' => 'ContactController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/Contact/email
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 21:43:20 Error: [MissingControllerException] Controller class ContactController could not be found.
+Exception Attributes: array (
+  'class' => 'ContactController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/Contact/email
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 21:43:25 Error: [MissingControllerException] Controller class ContactController could not be found.
+Exception Attributes: array (
+  'class' => 'ContactController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/Contact/email
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 21:43:44 Error: [MissingControllerException] Controller class ContactController could not be found.
+Exception Attributes: array (
+  'class' => 'ContactController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/Contact/email
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 21:44:31 Error: Fatal Error (1): Call to a member function url() on a non-object in [/Applications/MAMP/htdocs/Personal/StaelsBorco/app/Controller/ContactsController.php, line 28]
+2013-09-16 21:44:31 Error: [FatalErrorException] Call to a member function url() on a non-object
+Request URL: /Personal/StaelsBorco/Contacts/email
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 28, Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 28, Array)
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-16 21:46:02 Error: [MissingActionException] Action AppController::View() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'View',
+)
+Request URL: /Personal/StaelsBorco/app/View/Elements/mail.html
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-16 21:47:23 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/files/mail.html
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 21:47:38 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/img/body.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 21:48:07 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/webroot/img/body.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 21:48:40 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/files/mail.html
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 21:48:50 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/img/body.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 21:49:23 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/files/assets/img/mail-logo.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 21:49:44 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/files/assets/img/mail-logo.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 21:51:59 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/files/assets/img/mail-logo.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 21:55:46 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/files/mail.html
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 21:56:34 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/assets/img/mail-logo.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 21:57:44 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE in [/Applications/MAMP/htdocs/Personal/StaelsBorco/app/Controller/ContactsController.php, line 29]
+2013-09-16 21:57:44 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE
+Request URL: /Personal/StaelsBorco/contacts/email
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 29)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 29, Array)
+#2 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 29, Array)
+#3 /Applications/MAMP/htdocs/Personal/StaelsBorco/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

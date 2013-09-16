@@ -1671,3 +1671,12 @@ h3 {
   @media only all and (max-width: 800px) {
     .copyright {
       text-align: center; } }
+
+.success-message {
+  background: #3cb39d;
+  color: white;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 5px 20px 2px 20px;
+  margin-bottom: 10px;
+}
