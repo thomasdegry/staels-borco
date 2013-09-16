@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Sep 15, 2013 at 02:49 PM
+-- Generation Time: Sep 16, 2013 at 10:57 PM
 -- Server version: 5.5.9
 -- PHP Version: 5.3.6
 
@@ -21,6 +21,30 @@ SET time_zone = "+00:00";
 --
 CREATE DATABASE IF NOT EXISTS `personal_staelsborco` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
 USE `personal_staelsborco`;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `emails`
+--
+
+CREATE TABLE IF NOT EXISTS `emails` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `lang` varchar(3) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `message` longtext NOT NULL,
+  `created` datetime NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
+
+--
+-- Dumping data for table `emails`
+--
+
+INSERT INTO `emails` (`id`, `lang`, `name`, `email`, `message`, `created`) VALUES
+(1, 'dut', 'Thomas', 'degry.thomas@gmail.com', 'sdqfq sfqsdfqsdf', '2013-09-16 21:28:57'),
+(2, 'dut', 'Thomas', 'degry.thomas@gmail.com', 'dsfqsdf qsdfqsdf', '2013-09-16 21:32:37');
 
 -- --------------------------------------------------------
 
@@ -121,7 +145,7 @@ CREATE TABLE IF NOT EXISTS `translations` (
   `tag` varchar(255) NOT NULL,
   `page` enum('home','about','gallery','contact','general') NOT NULL,
   `dut` longtext NOT NULL,
-  `fre` longtext NOT NULL,
+  `fra` longtext NOT NULL,
   `eng` longtext NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `tag` (`tag`)
@@ -131,7 +155,7 @@ CREATE TABLE IF NOT EXISTS `translations` (
 -- Dumping data for table `translations`
 --
 
-INSERT INTO `translations` (`id`, `tag`, `page`, `dut`, `fre`, `eng`) VALUES
+INSERT INTO `translations` (`id`, `tag`, `page`, `dut`, `fra`, `eng`) VALUES
 (1, 'tagline', 'general', 'Uw betrouwbare partner in kledingproductie.', 'Votre partenaire fiable dans la production de vêtements.', 'Your reliable partner in clothing production.'),
 (2, 'introduction-content', 'home', 'Kledingmerken die hun productiepakket uit handen willen geven kunnen bij ons terecht voor alle stappen in het ontwikkelings- en productieproces. \n Wij zijn flexibel, klantgericht, en kunnen een mooie kwaliteit leveren dankzij geschoolde medewerkers en een hedendaags machinepark\n bovendien voldoen wij aan alle sociale normen voor tewerkstelling.', 'Aux marques qui veulent nous confier toute la production de leur collection, nous offrons le trajet complet du développement à la finition. Nous sommes flexibles, axés sur le client, et garantissons une qualité impeccable grâce à notre équipe de professionels et une technologie de pointe. Nous nous efforçons de respecter les normes qui concernent les règles sociales.', 'Fashion labels which wish to outsource their production package can come to us for all steps in the development and production process. We are flexible, customer-oriented and can provide good quality thanks to educated employees and modern equipment and machinery. We also comply with all social security regulations relating to employment.'),
 (3, 'p-p-01', 'about', 'Wij stellen u onze eigen modellen voor of vertrekken van uw collectie-ontwerpen.', 'Nous vous proposons nos propres modèles ou réalisons vos propositions de collection.', 'We can provide you with our own models or take your collection designs as the starting point.\r\n'),
