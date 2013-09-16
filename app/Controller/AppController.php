@@ -39,7 +39,7 @@ class AppController extends Controller {
 
         switch($language) {
             case 'fre':
-                $this->Session->write('Config.language', 'fre');
+                $this->Session->write('Config.language', 'fra');
                 break;
 
             case 'eng':

@@ -66,7 +66,7 @@
                     <input type="email" id="contact-email" name="data[email][email]" placeholder="<?php echo __('E-mailadres'); ?>" />
                     <span class="error-message"><?php echo __('Ongeldig emailadres'); ?></span>
                 </div>
-                <div class="input-group hidden">
+                <!--<div class="input-group hidden">
                     <label for="contact-subject"><?php echo __('Kies een onderwerp'); ?></label>
                     <select name="data[email][subject]" id="contact-subject">
                         <option><?php echo __('Kies een onderwerp'); ?></option>
@@ -92,7 +92,7 @@
                             <li><a href="#6" class="fake-dropdown-option"><?php echo __('Doorlooptijd'); ?></a></li>
                         </ul>
                     </div>
-                </div>
+                </div>-->
                 <div class="input-group">
                     <label for="contact-message"><?php echo __('Je vraag'); ?></label>
                     <textarea id="contact-message" name="data[email][message]" placeholder="<?php echo __('Je vraag'); ?>"></textarea>

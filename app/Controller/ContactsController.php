@@ -86,7 +86,6 @@ class ContactsController extends AppController {
 
             $email = str_replace('{{name}}', $name, $email);
             $email = str_replace('{{message}}', 'Bericht', $message);
-            $email = str_replace('{{subject}}', 'Subject', $email);
             $email = str_replace('{{email}}', 'degry.thomas@gmail.com', $email);
             $email = str_replace('{{date}}', date('d-m-Y'), $email);
 
