@@ -3103,3 +3103,21 @@ Stack Trace:
 #6 /Applications/MAMP/htdocs/staels-borco1/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(GalleriesController), Object(CakeRequest), Object(CakeResponse))
 #7 /Applications/MAMP/htdocs/staels-borco1/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #8 {main}
+2013-09-15 20:49:48 Error: [MissingControllerException] Controller class UploadsController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/uploads/0009_130713%20(1).jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 20:50:43 Error: [MissingControllerException] Controller class UploadsController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadsController',
+  'plugin' => NULL,
+)
+Request URL: /Personal/StaelsBorco/uploads/01582_myhomeplanet_1680x1050%20(1).jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Personal/StaelsBorco/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

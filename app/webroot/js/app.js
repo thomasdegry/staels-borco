@@ -267,6 +267,7 @@ $(document).ready(function(){
             $('body').off('keydown.staels');
         },
         showImage = function () {
+            console.log(currentImages);
             $('.overlay-content').find('img').attr('src', currentImages[currentImage]);
             checkButtons();
         },
@@ -302,11 +303,11 @@ $(document).ready(function(){
         currentImage = 0;
 
         $('#showroom').find('li[data-pile*="' + stapel.pileName + '"] img').each(function () {
-            var src = $(this).attr('src');
+            var src = $(this).attr('data-src');
 
             if ($.inArray(src, currentImages) === -1) {
                 currentImages.push(src);
-                if (src === target.attr('src')) {
+                if (src === target.attr('data-src')) {
                     currentImage = currentImages.length - 1;
                 }
             }
