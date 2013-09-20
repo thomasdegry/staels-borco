@@ -536,16 +536,16 @@ address {
 .flipcard-number-big {
   font-size: 3em; }
 
-.no-csstransforms .flipcard-card .flipcard-back {
+.no-csstransforms3d .flipcard-card .flipcard-back {
   display: none; }
 
-.no-csstransforms .flipcard-card .flipcard-front {
+.no-csstransforms3d .flipcard-card .flipcard-front {
   display: block; }
 
-.no-csstransforms .flipcard-card:hover .flipcard-back {
+.no-csstransforms3d .flipcard-card:hover .flipcard-back {
   display: block; }
 
-.no-csstransforms .flipcard-card:hover .flipcard-front {
+.no-csstransforms3d .flipcard-card:hover .flipcard-front {
   display: none; }
 
 .stats {
@@ -1413,7 +1413,7 @@ h3 {
       display: block;
       height: 3px;
       position: absolute;
-      right: 92%;
+      right: 98%;
       bottom: 2.75em;
       left: 1.25em;
       -webkit-transition: all 220ms ease-out;

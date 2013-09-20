@@ -65,6 +65,10 @@ $(document).ready(function(){
         }
     });
 
+    $('form').on('focus', '.error', function (e) {
+        $(this).removeClass('error');
+    });
+
     $('form').on('submit', function (e) {
         e.stopPropagation();
         e.preventDefault();
@@ -150,10 +154,10 @@ $(document).ready(function(){
             var direction = 'down';
 
             if (scroll) {
-                direction = (scroll > $('body').scrollTop()) ? 'up' : 'down';
+                direction = (scroll > $('body, html').scrollTop()) ? 'up' : 'down';
             }
 
-            scroll = $('body').scrollTop();
+            scroll = $('body, html').scrollTop();
 
             if ($('body').width() < 920) return false;
 
@@ -197,6 +201,7 @@ $(document).ready(function(){
             }
         },
         scrollFlag = true;
+
 
     $(window).on('scroll', function () {
         if (scrollFlag) {

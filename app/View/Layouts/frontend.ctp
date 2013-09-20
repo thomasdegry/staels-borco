@@ -39,7 +39,7 @@
                 (+32) 3 897 12 88
             </p>
             <p class="site-footer-contact-email">
-                info@staels-borco.com
+                <a href="mailto:astaels@staels.com">astaels@staels.com</a>
             </p>
         </address>
         <div class="site-footer-map">
