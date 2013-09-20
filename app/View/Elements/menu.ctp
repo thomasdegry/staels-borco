@@ -7,7 +7,23 @@
             <li class="site-nav-item <?php if($this->name == 'Galleries'): ?>current<?php endif; ?>"><?php echo $this->Html->link(__('Galerij'), array('controller' => 'Showroom', 'action' => 'index')); ?></li>
             <li class="site-nav-item <?php if($this->name == 'Contact'): ?>current<?php endif; ?>"><?php echo $this->Html->link(__('Contact'), array('controller' => 'Contact', 'action' => 'index')); ?></li>
         </ul>
-        <ul class="language-nav language-nav-active-2">
+        <?php
+            $activeNumber = 1;
+
+            switch ($this->Session->read('Config.language')) {
+                case 'fre':
+                    $activeNumber = 1;
+                    break;
+                case 'eng':
+                    $activeNumber = 2;
+                    break;
+                case 'dut':
+                    $activeNumber = 3;
+                    break;
+            }
+        ?>
+
+        <ul class="language-nav language-nav-active-<?php echo $activeNumber; ?>">
             <li class="language-nav-active-indicator"></li>
             <li class="language-nav-item <?php if($this->Session->read('Config.language') == 'fre'): ?>active<?php endif; ?>">
                 <?php echo $this->Html->link("<abbr title='Francais'>FR</abbr>", array('controller' => $this->name, 'action' => 'setLanguage/fre'), array('escape' => false)); ?>

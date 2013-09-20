@@ -1514,7 +1514,7 @@ h3 {
     -o-transform-style: preserve-3d;
     transform-style: preserve-3d;
     width: 3.25em; }
-    .language-nav-item a.active {
+    .language-nav-item.active a {
       color: #ee662f; }
     .site-nav-sticky .language-nav-item a {
       font-size: 0.75em;
