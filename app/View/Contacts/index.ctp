@@ -49,31 +49,34 @@
         </div>
         <div class="main">
             <h2 class="hidden">Stuur ons een e-mail</h2>
-            <?php echo $this->Form->create('contact', array('action' => 'email')); ?>
+            <div class="success-message">
+                <p><?php echo __('Uw bericht is succesvol verzonden.') ?></p>
+            </div>
+            <?php echo $this->Form->create('contact', array('controller' => 'contact', 'action' => 'email')); ?>
                 <div>
-                    <input type="hidden" name="lang" value="<?php echo $language; ?>" />
+                    <input type="hidden" name="data[email][lang]" value="<?php echo $language; ?>" />
                 </div>
                 <div class="input-group">
                     <label for="contact-name"><?php echo __('Naam'); ?></label>
-                    <input type="text" id="contact-name" name="name" placeholder="<?php echo __('Naam'); ?>" />
+                    <input type="text" id="contact-name" name="data[email][name]" placeholder="<?php echo __('Naam'); ?>" />
                     <span class="error-message"><?php echo __('Verplicht veld'); ?></span>
                 </div>
                 <div class="input-group">
                     <label for="contact-email"><?php echo __('E-mailadres'); ?></label>
-                    <input type="email" id="contact-email" name="email" placeholder="<?php echo __('E-mailadres'); ?>" />
+                    <input type="email" id="contact-email" name="data[email][email]" placeholder="<?php echo __('E-mailadres'); ?>" />
                     <span class="error-message"><?php echo __('Ongeldig emailadres'); ?></span>
                 </div>
-                <div class="input-group hidden">
+                <!--<div class="input-group hidden">
                     <label for="contact-subject"><?php echo __('Kies een onderwerp'); ?></label>
-                    <select name="subject" id="contact-subject">
+                    <select name="data[email][subject]" id="contact-subject">
                         <option><?php echo __('Kies een onderwerp'); ?></option>
                         <optgroup>
-                            <option value="1"><?php echo __('Algemene vragen'); ?></option>
-                            <option value="2"><?php echo __('Stofkeuze'); ?></option>
-                            <option value="3"><?php echo __('Kostprijs'); ?></option>
-                            <option value="4"><?php echo __('Patronen'); ?></option>
-                            <option value="5"><?php echo __('Ordergrootte'); ?></option>
-                            <option value="6"><?php echo __('Doorlooptijd'); ?></option>
+                            <option value="<?php echo __('Algemene vragen'); ?>"><?php echo __('Algemene vragen'); ?></option>
+                            <option value="<?php echo __('Stofkeuze'); ?>"><?php echo __('Stofkeuze'); ?></option>
+                            <option value="<?php echo __('Kostprijs'); ?>"><?php echo __('Kostprijs'); ?></option>
+                            <option value="<?php echo __('Patronen'); ?>"><?php echo __('Patronen'); ?></option>
+                            <option value="<?php echo __('Ordergrootte'); ?>"><?php echo __('Ordergrootte'); ?></option>
+                            <option value="<?php echo __('Doorlooptijd'); ?>"><?php echo __('Doorlooptijd'); ?></option>
                         </optgroup>
                     </select>
                 </div>
@@ -89,10 +92,10 @@
                             <li><a href="#6" class="fake-dropdown-option"><?php echo __('Doorlooptijd'); ?></a></li>
                         </ul>
                     </div>
-                </div>
+                </div>-->
                 <div class="input-group">
                     <label for="contact-message"><?php echo __('Je vraag'); ?></label>
-                    <textarea id="contact-message" name="message" placeholder="<?php echo __('Je vraag'); ?>"></textarea>
+                    <textarea id="contact-message" name="data[email][message]" placeholder="<?php echo __('Je vraag'); ?>"></textarea>
                     <span class="error-message error-message-textarea"><?php echo __('Jouw boodschap moet minstens tien woorden lang zijn'); ?></span>
                 </div>
                 <div class="button-group">

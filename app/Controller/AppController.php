@@ -25,7 +25,7 @@ class AppController extends Controller {
             $this->Session->write('Config.language', 'dut');
         }
 
-        $this->Auth->allow('index', 'setLanguage');
+        $this->Auth->allow('index', 'setLanguage', 'email');
         $this->set('logged_in', $this->Auth->loggedIn());
         $this->set('current_user', $this->Auth->user());
 
@@ -39,7 +39,7 @@ class AppController extends Controller {
 
         switch($language) {
             case 'fre':
-                $this->Session->write('Config.language', 'fre');
+                $this->Session->write('Config.language', 'fra');
                 break;
 
             case 'eng':

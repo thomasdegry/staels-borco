@@ -1,5 +1,8 @@
 $(document).ready(function(){
 
+    var url = '/Personal/StaelsBorco';
+    $(".success-message").slideUp(0);
+
     $('#nav-index-link.current').one('click', function (e) {
         e.preventDefault();
 
@@ -63,15 +66,15 @@ $(document).ready(function(){
     });
 
     $('form').on('submit', function (e) {
-        e.preventDefault();
         e.stopPropagation();
+        e.preventDefault();
 
         var form = $(this),
             button = $(this).find('input[type="submit"]');
 
         form.find('textarea, input:not([type="submit"])').trigger('blur');
 
-        if (form.find('error')) {
+        if (form.find('error').length > 0) {
             button.val('Oops!').addClass('button-error');
 
             setTimeout(function () {
@@ -79,6 +82,16 @@ $(document).ready(function(){
             }, 2000);
 
             return false;
+        } else {
+            $.ajax({
+                url: url + '/contacts/email',
+                type: 'POST',
+                data: $("#contactEmailForm").serialize(),
+                success: function(data) {
+                    $(".success-message").slideDown(400);
+                    $("#contactEmailForm")[0].reset();
+                }
+            });
         }
     });
 
@@ -267,6 +280,7 @@ $(document).ready(function(){
             $('body').off('keydown.staels');
         },
         showImage = function () {
+            console.log(currentImages);
             $('.overlay-content').find('img').attr('src', currentImages[currentImage]);
             checkButtons();
         },
@@ -302,11 +316,11 @@ $(document).ready(function(){
         currentImage = 0;
 
         $('#showroom').find('li[data-pile*="' + stapel.pileName + '"] img').each(function () {
-            var src = $(this).attr('src');
+            var src = $(this).attr('data-src');
 
             if ($.inArray(src, currentImages) === -1) {
                 currentImages.push(src);
-                if (src === target.attr('src')) {
+                if (src === target.attr('data-src')) {
                     currentImage = currentImages.length - 1;
                 }
             }

@@ -26,7 +26,7 @@
             <?php foreach($gallery['Picture'] as $picture): ?>
                 <li data-pile="<?php echo $gallery['Gallery']['name_' . $language]; ?>">
                     <a href="#">
-                        <?php echo $this->Html->image('uploads/thumbnail/' . $picture['name']); ?>
+                        <?php echo $this->Html->image('uploads/thumbnail/' . $picture['name'], array('data-src' => 'img/uploads/' . $picture['name'])); ?>
                     </a>
                 </li>
             <?php endforeach; ?>
